@@ -1,3 +1,4 @@
- - What footprint do I use for non-1U keys?
+
  - How do I check that a microcontroller chip supports USB?
- - What's better for button checking?  High GPIO count, diode array, or GPIO extenders?
+ - What's better for button checking?  High GPIO count, diode matrix, or GPIO extenders?
+ - For keyboards, does having USB faster than 1.1 make any appreciable difference?

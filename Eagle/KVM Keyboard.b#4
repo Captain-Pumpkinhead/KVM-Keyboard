@@ -260,6 +260,77 @@
 <wire x1="372.875" y1="26.125" x2="372.875" y2="40.375" width="0.1524" layer="21"/>
 <wire x1="372.875" y1="40.375" x2="358.625" y2="40.375" width="0.1524" layer="21"/>
 <wire x1="299.25" y1="123.5" x2="313.5" y2="123.5" width="0.1524" layer="21"/>
+<wire x1="380" y1="23.75" x2="380" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="380" y1="4.75" x2="418" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="418" y1="4.75" x2="418" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="418" y1="23.75" x2="380" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="437" y1="4.75" x2="456" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="456" y1="4.75" x2="456" y2="42.75" width="0.1524" layer="21"/>
+<wire x1="456" y1="42.75" x2="456" y2="80.75" width="0.1524" layer="21"/>
+<wire x1="456" y1="80.75" x2="437" y2="80.75" width="0.1524" layer="21"/>
+<wire x1="437" y1="80.75" x2="437" y2="42.75" width="0.1524" layer="21"/>
+<wire x1="437" y1="42.75" x2="437" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="437" y1="42.75" x2="456" y2="42.75" width="0.1524" layer="21"/>
+<circle x="104.5" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="123.5" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="147.25" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="166.25" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="185.25" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="204.25" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="446.5" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="66.5" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<circle x="85.5" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<circle x="104.5" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<circle x="85.5" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="66.5" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="123.5" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<circle x="147.25" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<circle x="166.25" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<circle x="185.25" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<circle x="204.25" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<circle x="446.5" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<wire x1="28.5" y1="80.75" x2="28.5" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="28.5" y1="99.75" x2="275.5" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="218.5" y1="104.5" x2="294.5" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="294.5" y1="104.5" x2="294.5" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="294.5" y1="142.5" x2="218.5" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="218.5" y1="142.5" x2="218.5" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="213.75" y1="104.5" x2="137.75" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="133" y1="104.5" x2="57" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="57" y1="104.5" x2="57" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="57" y1="142.5" x2="133" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="137.75" y1="142.5" x2="213.75" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="213.75" y1="142.5" x2="213.75" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="47.5" y1="104.5" x2="47.5" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="47.5" y1="142.5" x2="28.5" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="28.5" y1="142.5" x2="28.5" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="28.5" y1="104.5" x2="47.5" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="23.75" y1="104.5" x2="4.75" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="4.75" y1="104.5" x2="4.75" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="4.75" y1="142.5" x2="23.75" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="23.75" y1="142.5" x2="23.75" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="23.75" y1="99.75" x2="23.75" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="23.75" y1="4.75" x2="4.75" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="4.75" y1="4.75" x2="4.75" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="4.75" y1="99.75" x2="23.75" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="133" y1="142.5" x2="133" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="137.75" y1="104.5" x2="137.75" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="318.25" y1="142.5" x2="375.25" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="375.25" y1="142.5" x2="375.25" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="375.25" y1="104.5" x2="318.25" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="318.25" y1="104.5" x2="318.25" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="380" y1="142.5" x2="380" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="380" y1="104.5" x2="456" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="456" y1="104.5" x2="456" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="456" y1="142.5" x2="380" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="318.25" y1="99.75" x2="375.25" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="375.25" y1="99.75" x2="375.25" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="375.25" y1="4.75" x2="318.25" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="318.25" y1="4.75" x2="318.25" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="437" y1="4.75" x2="418" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="380" y1="23.75" x2="380" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="380" y1="99.75" x2="456" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="456" y1="99.75" x2="456" y2="80.75" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="bak-Keyboard">
@@ -379,6 +450,44 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-6.35" y1="1.27" x2="-6.35" y2="-1.27" width="0.2032" layer="21"/>
 <text x="5.08" y="6.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="5.08" y="-6.477" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+</packages>
+</library>
+<library name="adafruit">
+<packages>
+<package name="TACT_PANA-EVQ">
+<pad name="P$1" x="-3.25" y="0" drill="1.3" diameter="2.54"/>
+<pad name="P$2" x="3.25" y="0" drill="1.3" diameter="2.54"/>
+<wire x1="-3" y1="1.75" x2="3" y2="1.75" width="0.127" layer="51"/>
+<wire x1="3" y1="1.75" x2="3" y2="0.5" width="0.127" layer="51"/>
+<wire x1="3" y1="0.5" x2="3" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="3" y1="-0.5" x2="3" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="3" y1="-1.75" x2="-3" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-3" y1="-1.75" x2="-3" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="-0.5" x2="-3" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="0.5" x2="-3" y2="1.75" width="0.127" layer="51"/>
+<wire x1="3.95" y1="-0.5" x2="3.95" y2="0.5" width="0.127" layer="51"/>
+<wire x1="3.95" y1="0.5" x2="3" y2="0.5" width="0.127" layer="51"/>
+<wire x1="3" y1="0.5" x2="3" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="3" y1="-0.5" x2="3.95" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="3.95" y1="0.5" x2="3" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-3.95" y1="0" x2="-3.95" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-3.95" y1="0.5" x2="-3" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="0.5" x2="-3" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="-0.5" x2="-3.95" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-3.95" y1="-0.5" x2="-3.95" y2="0" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.127" layer="51"/>
+<wire x1="-3.1" y1="1.5" x2="-3.1" y2="1.9" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="1.9" x2="3.1" y2="1.9" width="0.127" layer="21"/>
+<wire x1="3.1" y1="1.9" x2="3.1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="-1.5" x2="-3.1" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="-1.9" x2="3.1" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="3.1" y1="-1.9" x2="3.1" y2="-1.5" width="0.127" layer="21"/>
+<text x="-3.043" y="2.17" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-3.016" y="-2.451" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -823,9 +932,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="38" y="126.785" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="38" y="126.785" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="CAPS-LOCK" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="47.5" y="52.25" smashed="yes">
-<attribute name="NAME" x="47.5" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="47.5" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="CAPS-LOCK" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="45.125" y="52.25" smashed="yes">
+<attribute name="NAME" x="45.125" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="45.125" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="S" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="90.25" y="52.25" smashed="yes">
 <attribute name="NAME" x="90.25" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
@@ -835,9 +944,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="14.25" y="107.785" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="14.25" y="107.785" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="SPACE" library="bak-Keyboard" package="CHOC-6.25U" value="KEYSWITCH-PLAIN-CHOC-6.25U" x="156.75" y="14.25" smashed="yes">
-<attribute name="NAME" x="156.75" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="156.75" y="8.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="SPACE" library="bak-Keyboard" package="CHOC-6.25U" value="KEYSWITCH-PLAIN-CHOC-6.25U" x="159.125" y="14.25" smashed="yes">
+<attribute name="NAME" x="159.125" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="159.125" y="8.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="PRINT-SCREEN" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="327.75" y="114" smashed="yes">
 <attribute name="NAME" x="327.75" y="107.785" size="1" layer="21" font="vector" ratio="13" align="center"/>
@@ -967,21 +1076,21 @@ design rules under a new name.</description>
 <attribute name="NAME" x="346.75" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="346.75" y="27.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RIGHT-CTRL" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="299.25" y="14.25" smashed="yes">
-<attribute name="NAME" x="299.25" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="299.25" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="RIGHT-CTRL" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="301.625" y="14.25" smashed="yes">
+<attribute name="NAME" x="301.625" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="301.625" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="LEFT-ALT" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="90.25" y="14.25" smashed="yes">
-<attribute name="NAME" x="90.25" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="90.25" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="LEFT-ALT" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="87.875" y="14.25" smashed="yes">
+<attribute name="NAME" x="87.875" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="87.875" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="LEFT-SUPER" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="66.5" y="14.25" smashed="yes">
-<attribute name="NAME" x="66.5" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="66.5" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="LEFT-SUPER" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="64.125" y="14.25" smashed="yes">
+<attribute name="NAME" x="64.125" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="64.125" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="LEFT-CTRL" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="42.75" y="14.25" smashed="yes">
-<attribute name="NAME" x="42.75" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="42.75" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="LEFT-CTRL" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="40.375" y="14.25" smashed="yes">
+<attribute name="NAME" x="40.375" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="40.375" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="DELETE" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="327.75" y="71.25" smashed="yes">
 <attribute name="NAME" x="327.75" y="65.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
@@ -1084,21 +1193,21 @@ design rules under a new name.</description>
 <attribute name="SF_SKU" value="COM-09117" x="446.5" y="133" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="451.58" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="LSHIFT" library="bak-Keyboard" package="CHOC-2U" value="KEYSWITCH-PLAIN-CHOC-2U" x="52.25" y="33.25" smashed="yes">
-<attribute name="NAME" x="52.25" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="52.25" y="27.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="LSHIFT" library="bak-Keyboard" package="CHOC-2U" value="KEYSWITCH-PLAIN-CHOC-2U" x="49.875" y="33.25" smashed="yes">
+<attribute name="NAME" x="49.875" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="49.875" y="27.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="BACKSPACE" library="bak-Keyboard" package="CHOC-2U" value="KEYSWITCH-PLAIN-CHOC-2U" x="294.5" y="90.25" smashed="yes">
 <attribute name="NAME" x="294.5" y="84.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="294.5" y="84.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="ENTER" library="bak-Keyboard" package="CHOC-2U" value="KEYSWITCH-PLAIN-CHOC-2U" x="289.75" y="52.25" smashed="yes">
-<attribute name="NAME" x="289.75" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="289.75" y="46.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="ENTER" library="bak-Keyboard" package="CHOC-2U" value="KEYSWITCH-PLAIN-CHOC-2U" x="292.125" y="52.25" smashed="yes">
+<attribute name="NAME" x="292.125" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="292.125" y="46.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RSHIFT" library="bak-Keyboard" package="CHOC-2U" value="KEYSWITCH-PLAIN-CHOC-2U" x="285" y="33.25" smashed="yes">
-<attribute name="NAME" x="285" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="285" y="27.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="RSHIFT" library="bak-Keyboard" package="CHOC-2U" value="KEYSWITCH-PLAIN-CHOC-2U" x="287.375" y="33.25" smashed="yes">
+<attribute name="NAME" x="287.375" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="287.375" y="27.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="PAD0" library="bak-Keyboard" package="CHOC-2U" value="KEYSWITCH-PLAIN-CHOC-2U" x="399" y="14.25" smashed="yes">
 <attribute name="NAME" x="399" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
@@ -1112,17 +1221,45 @@ design rules under a new name.</description>
 <attribute name="NAME" x="452.715" y="23.75" size="1" layer="21" font="vector" ratio="13" rot="R90" align="center"/>
 <attribute name="NAME" x="452.715" y="23.75" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="center"/>
 </element>
-<element name="MENU" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="275.5" y="14.25" smashed="yes">
-<attribute name="NAME" x="275.5" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="275.5" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="MENU" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="277.875" y="14.25" smashed="yes">
+<attribute name="NAME" x="277.875" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="277.875" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RIGHT-SUPER" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="251.75" y="14.25" smashed="yes">
-<attribute name="NAME" x="251.75" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="251.75" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="RIGHT-SUPER" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="254.125" y="14.25" smashed="yes">
+<attribute name="NAME" x="254.125" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="254.125" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RIGHT-ALT" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="228" y="14.25" smashed="yes">
-<attribute name="NAME" x="228" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="228" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="RIGHT-ALT" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="230.375" y="14.25" smashed="yes">
+<attribute name="NAME" x="230.375" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="230.375" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="LCD-BUTTON-TOP" library="adafruit" package="TACT_PANA-EVQ" value="" x="306.375" y="133" smashed="yes">
+<attribute name="NAME" x="303.332" y="135.17" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="303.359" y="130.549" size="0.4064" layer="27" ratio="10"/>
+</element>
+<element name="LCD-BUTTON-BOTTOM" library="adafruit" package="TACT_PANA-EVQ" value="" x="306.375" y="114" smashed="yes">
+<attribute name="NAME" x="303.332" y="116.17" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="303.359" y="111.549" size="0.4064" layer="27" ratio="10"/>
+</element>
+<element name="RES-LEFT" library="adafruit" package="TACT_PANA-EVQ" value="" x="327.75" y="33.25" smashed="yes">
+<attribute name="NAME" x="324.707" y="35.42" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="324.734" y="30.799" size="0.4064" layer="27" ratio="10"/>
+</element>
+<element name="RES-RIGHT" library="adafruit" package="TACT_PANA-EVQ" value="" x="365.75" y="33.25" smashed="yes">
+<attribute name="NAME" x="362.707" y="35.42" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="362.734" y="30.799" size="0.4064" layer="27" ratio="10"/>
+</element>
+<element name="RES-DELETE" library="adafruit" package="TACT_PANA-EVQ" value="" x="327.75" y="52.25" smashed="yes">
+<attribute name="NAME" x="324.707" y="54.42" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="324.734" y="49.799" size="0.4064" layer="27" ratio="10"/>
+</element>
+<element name="RES-END" library="adafruit" package="TACT_PANA-EVQ" value="" x="346.75" y="52.25" smashed="yes">
+<attribute name="NAME" x="343.707" y="54.42" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="343.734" y="49.799" size="0.4064" layer="27" ratio="10"/>
+</element>
+<element name="RES-PGDN" library="adafruit" package="TACT_PANA-EVQ" value="" x="365.75" y="52.25" smashed="yes">
+<attribute name="NAME" x="362.707" y="54.42" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="362.734" y="49.799" size="0.4064" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>

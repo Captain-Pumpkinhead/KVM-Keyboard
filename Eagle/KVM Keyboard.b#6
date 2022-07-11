@@ -176,10 +176,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="608" y2="0" width="0" layer="20"/>
-<wire x1="608" y1="0" x2="608" y2="461" width="0" layer="20"/>
-<wire x1="608" y1="461" x2="0" y2="461" width="0" layer="20"/>
-<wire x1="0" y1="461" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="460.75" y2="0" width="0" layer="20"/>
+<wire x1="460.75" y1="0" x2="460.75" y2="147.5" width="0" layer="20"/>
+<wire x1="460.75" y1="147.5" x2="0" y2="147.5" width="0" layer="20"/>
+<wire x1="0" y1="147.5" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="bak-Keyboard">
@@ -235,6 +235,46 @@
 <hole x="50" y="7" drill="3.05"/>
 <hole x="-50" y="-8.24" drill="4"/>
 <hole x="50" y="-8.24" drill="4"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Switches">
+<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
+In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="ROTARY_ENC_PLAIN">
+<description>&lt;h3&gt;Rotary Encoder w/ Select Switch&lt;/h3&gt;
+&lt;p&gt;Encoders rotate similarly to potentiometers, but they’re different from potentiometers in that an encoder has full rotation without limits. They output gray code so that you can tell how much and in which direction the encoder has been turned.&lt;/p&gt;
+&lt;p&gt;This encoder includes a push-down select switch built into the shaft.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.sparkfun.com/datasheets/Components/TW-700198.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<pad name="C" x="7.493" y="0" drill="1.016"/>
+<pad name="SW+" x="-6.985" y="2.54" drill="1.016"/>
+<pad name="P$3" x="0" y="6.604" drill="2.286"/>
+<pad name="P$4" x="0" y="-6.604" drill="2.286"/>
+<pad name="SW-" x="-6.985" y="-2.54" drill="1.016"/>
+<pad name="B" x="7.493" y="2.54" drill="1.016"/>
+<pad name="A" x="7.493" y="-2.54" drill="1.016"/>
+<wire x1="-6.35" y1="6.35" x2="-2.54" y2="6.35" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="6.35" x2="6.35" y2="6.35" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="6.35" x2="6.35" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-6.35" x2="2.54" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-6.35" x2="-6.35" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="-6.35" y1="-6.35" x2="-6.35" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="-6.35" y1="6.35" x2="-6.35" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="-6.35" y1="1.27" x2="-6.35" y2="-1.27" width="0.2032" layer="21"/>
+<text x="5.08" y="6.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="5.08" y="-6.477" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
 </packages>
 </library>
@@ -894,6 +934,51 @@ design rules under a new name.</description>
 <element name="Z" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="80.75" y="33.25" smashed="yes">
 <attribute name="NAME" x="80.75" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="80.75" y="27.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="VOLUME_PC1" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="66.5" y="133" smashed="yes">
+<attribute name="NAME" x="71.58" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="66.5" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="71.58" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="VOLUME_PC2" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="85.5" y="133" smashed="yes">
+<attribute name="NAME" x="90.58" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="85.5" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="90.58" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="VOLUME_PC3" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="104.5" y="133" smashed="yes">
+<attribute name="NAME" x="109.58" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="104.5" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="109.58" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="VOLUME_PC4" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="123.5" y="133" smashed="yes">
+<attribute name="NAME" x="128.58" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="123.5" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="128.58" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RED_ROTENC" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="147.25" y="133" smashed="yes">
+<attribute name="NAME" x="152.33" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="147.25" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="152.33" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="GREEN_ROTENC" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="166.25" y="133" smashed="yes">
+<attribute name="NAME" x="171.33" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="166.25" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="171.33" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="BLUE_ROTENC" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="185.25" y="133" smashed="yes">
+<attribute name="NAME" x="190.33" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="185.25" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="190.33" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="BRIGHTNESS" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="204.25" y="133" smashed="yes">
+<attribute name="NAME" x="209.33" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="204.25" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="209.33" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="VOLUME_MASTER" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="446.5" y="133" smashed="yes">
+<attribute name="NAME" x="451.58" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="446.5" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="451.58" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 </elements>
 <signals>

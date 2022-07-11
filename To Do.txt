@@ -1,0 +1,8 @@
+ - Figure out whether to use a diode matrix, GPIO extenders, or a high GPIO count microcontroller.
+ - Wire up all the buttons and LEDs.
+	- 21 pins for Charlieplexing the RGB LEDs. (21
+ - Make an RGB compatible cap for the rotary encoders.
+ - Create a PCB to connect all the KVM bits the way I want.
+ - 3D print the enclosure and keycaps.
+ - Buy the keyswitches.
+ - Assemble.

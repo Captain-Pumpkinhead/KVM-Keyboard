@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="4.75" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.175" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -431,53 +431,53 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="A" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="52.25" y="52.25" smashed="yes">
-<attribute name="NAME" x="52.25" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="52.25" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="A" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="53.34" y="31.115" smashed="yes">
+<attribute name="NAME" x="53.34" y="24.9" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="53.34" y="24.9" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="B" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="137.75" y="33.25" smashed="yes">
-<attribute name="NAME" x="137.75" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="137.75" y="27.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="B" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="35.56" y="13.335" smashed="yes">
+<attribute name="NAME" x="35.56" y="7.12" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="35.56" y="7.12" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="BRACE-CLOSING" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="256.5" y="71.25" smashed="yes">
-<attribute name="NAME" x="256.5" y="65.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="256.5" y="65.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="BRACE-CLOSING" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-63.5" y="10.16" smashed="yes">
+<attribute name="NAME" x="-63.5" y="3.945" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-63.5" y="3.945" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="BRACE-OPENING" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="237.5" y="71.25" smashed="yes">
-<attribute name="NAME" x="237.5" y="65.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="237.5" y="65.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="BRACE-OPENING" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-83.82" y="10.16" smashed="yes">
+<attribute name="NAME" x="-83.82" y="3.945" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-83.82" y="3.945" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="BRIGHTNESS-MINUS" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="266" y="133" smashed="yes">
-<attribute name="NAME" x="266" y="126.785" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="266" y="126.785" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="BRIGHTNESS-MINUS" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-104.14" y="10.16" smashed="yes">
+<attribute name="NAME" x="-104.14" y="3.945" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-104.14" y="3.945" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="BRIGHTNESS-PLUS" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="247" y="133" smashed="yes">
-<attribute name="NAME" x="247" y="126.785" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="247" y="126.785" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="BRIGHTNESS-PLUS" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-124.46" y="10.16" smashed="yes">
+<attribute name="NAME" x="-124.46" y="3.945" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-124.46" y="3.945" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="C" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="99.75" y="33.25" smashed="yes">
-<attribute name="NAME" x="99.75" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="99.75" y="27.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="C" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-144.78" y="10.16" smashed="yes">
+<attribute name="NAME" x="-144.78" y="3.945" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-144.78" y="3.945" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="COLON" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="223.25" y="52.25" smashed="yes">
-<attribute name="NAME" x="223.25" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="223.25" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="COLON" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-165.1" y="10.16" smashed="yes">
+<attribute name="NAME" x="-165.1" y="3.945" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-165.1" y="3.945" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="D" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="90.25" y="52.25" smashed="yes">
-<attribute name="NAME" x="90.25" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="90.25" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="D" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-185.42" y="10.16" smashed="yes">
+<attribute name="NAME" x="-185.42" y="3.945" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-185.42" y="3.945" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="E" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="85.5" y="71.25" smashed="yes">
-<attribute name="NAME" x="85.5" y="65.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="85.5" y="65.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="E" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-205.74" y="10.16" smashed="yes">
+<attribute name="NAME" x="-205.74" y="3.945" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-205.74" y="3.945" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="ESC" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-22.86" y="30.48" smashed="yes">
 <attribute name="NAME" x="-22.86" y="24.265" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-22.86" y="24.265" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="F" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="109.25" y="52.25" smashed="yes">
-<attribute name="NAME" x="109.25" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="109.25" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="F" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-43.18" y="30.48" smashed="yes">
+<attribute name="NAME" x="-43.18" y="24.265" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-43.18" y="24.265" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="F1" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-63.5" y="30.48" smashed="yes">
 <attribute name="NAME" x="-63.5" y="24.265" size="1" layer="21" font="vector" ratio="13" align="center"/>
@@ -519,9 +519,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-185.42" y="24.265" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-185.42" y="24.265" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="F8" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="185.25" y="114" smashed="yes">
-<attribute name="NAME" x="185.25" y="107.785" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="185.25" y="107.785" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="F8" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-205.74" y="30.48" smashed="yes">
+<attribute name="NAME" x="-205.74" y="24.265" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-205.74" y="24.265" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="F9" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-22.86" y="50.8" smashed="yes">
 <attribute name="NAME" x="-22.86" y="44.585" size="1" layer="21" font="vector" ratio="13" align="center"/>
@@ -531,33 +531,33 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-104.14" y="44.585" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-104.14" y="44.585" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="G" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="128.25" y="52.25" smashed="yes">
-<attribute name="NAME" x="128.25" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="128.25" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="G" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-124.46" y="50.8" smashed="yes">
+<attribute name="NAME" x="-124.46" y="44.585" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-124.46" y="44.585" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="GREATER-THAN" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-144.78" y="50.8" smashed="yes">
 <attribute name="NAME" x="-144.78" y="44.585" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-144.78" y="44.585" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="H" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="147.25" y="52.25" smashed="yes">
-<attribute name="NAME" x="147.25" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="147.25" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="H" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-165.1" y="50.8" smashed="yes">
+<attribute name="NAME" x="-165.1" y="44.585" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-165.1" y="44.585" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="HIBERNATE" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-185.42" y="50.8" smashed="yes">
 <attribute name="NAME" x="-185.42" y="44.585" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-185.42" y="44.585" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="I" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="180.5" y="71.25" smashed="yes">
-<attribute name="NAME" x="180.5" y="65.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="180.5" y="65.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="I" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-205.74" y="50.8" smashed="yes">
+<attribute name="NAME" x="-205.74" y="44.585" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-205.74" y="44.585" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="J" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="166.25" y="52.25" smashed="yes">
-<attribute name="NAME" x="166.25" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="166.25" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="J" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-22.86" y="71.12" smashed="yes">
+<attribute name="NAME" x="-22.86" y="64.905" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-22.86" y="64.905" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="K" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="185.25" y="52.25" smashed="yes">
-<attribute name="NAME" x="185.25" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="185.25" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="K" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-43.18" y="71.12" smashed="yes">
+<attribute name="NAME" x="-43.18" y="64.905" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-43.18" y="64.905" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="KVM_PC1" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-63.5" y="71.12" smashed="yes">
 <attribute name="NAME" x="-63.5" y="64.905" size="1" layer="21" font="vector" ratio="13" align="center"/>
@@ -575,21 +575,21 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-124.46" y="64.905" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-124.46" y="64.905" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="L" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="204.25" y="52.25" smashed="yes">
-<attribute name="NAME" x="204.25" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="204.25" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="L" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-144.78" y="71.12" smashed="yes">
+<attribute name="NAME" x="-144.78" y="64.905" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-144.78" y="64.905" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="LESS-THAN" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-165.1" y="71.12" smashed="yes">
 <attribute name="NAME" x="-165.1" y="64.905" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-165.1" y="64.905" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="M" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="175.75" y="33.25" smashed="yes">
-<attribute name="NAME" x="175.75" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="175.75" y="27.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="M" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-185.42" y="71.12" smashed="yes">
+<attribute name="NAME" x="-185.42" y="64.905" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-185.42" y="64.905" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="N" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="156.75" y="33.25" smashed="yes">
-<attribute name="NAME" x="156.75" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="156.75" y="27.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="N" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-205.74" y="71.12" smashed="yes">
+<attribute name="NAME" x="-205.74" y="64.905" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-205.74" y="64.905" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="NUM-MINUS" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-22.86" y="91.44" smashed="yes">
 <attribute name="NAME" x="-22.86" y="85.225" size="1" layer="21" font="vector" ratio="13" align="center"/>
@@ -639,21 +639,21 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-43.18" y="105.545" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-43.18" y="105.545" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="O" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="199.5" y="71.25" smashed="yes">
-<attribute name="NAME" x="199.5" y="65.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="199.5" y="65.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="O" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-63.5" y="111.76" smashed="yes">
+<attribute name="NAME" x="-63.5" y="105.545" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-63.5" y="105.545" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="P" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="218.5" y="71.25" smashed="yes">
-<attribute name="NAME" x="218.5" y="65.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="218.5" y="65.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="P" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-83.82" y="111.76" smashed="yes">
+<attribute name="NAME" x="-83.82" y="105.545" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-83.82" y="105.545" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="PRESENT" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-104.14" y="111.76" smashed="yes">
 <attribute name="NAME" x="-104.14" y="105.545" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-104.14" y="105.545" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="Q" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="47.5" y="71.25" smashed="yes">
-<attribute name="NAME" x="47.5" y="65.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="47.5" y="65.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="Q" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-124.46" y="111.76" smashed="yes">
+<attribute name="NAME" x="-124.46" y="105.545" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-124.46" y="105.545" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="QUESTION-MARK" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-144.78" y="111.76" smashed="yes">
 <attribute name="NAME" x="-144.78" y="105.545" size="1" layer="21" font="vector" ratio="13" align="center"/>
@@ -663,9 +663,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-165.1" y="105.545" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-165.1" y="105.545" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="R" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="104.5" y="71.25" smashed="yes">
-<attribute name="NAME" x="104.5" y="65.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="104.5" y="65.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="R" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-185.42" y="111.76" smashed="yes">
+<attribute name="NAME" x="-185.42" y="105.545" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-185.42" y="105.545" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="RES-ABOVE-F10" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-205.74" y="111.76" smashed="yes">
 <attribute name="NAME" x="-205.74" y="105.545" size="1" layer="21" font="vector" ratio="13" align="center"/>
@@ -683,217 +683,217 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-63.5" y="125.865" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-63.5" y="125.865" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="S" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="71.25" y="52.25" smashed="yes">
-<attribute name="NAME" x="71.25" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="71.25" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="S" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-83.82" y="132.08" smashed="yes">
+<attribute name="NAME" x="-83.82" y="125.865" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-83.82" y="125.865" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="SLEEP" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-104.14" y="132.08" smashed="yes">
 <attribute name="NAME" x="-104.14" y="125.865" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-104.14" y="125.865" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="SPACE" library="bak-Keyboard" package="CHOC-6.25U" value="KEYSWITCH-PLAIN-CHOC-6.25U" x="137.75" y="14.25" smashed="yes">
-<attribute name="NAME" x="137.75" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="137.75" y="8.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="SPACE" library="bak-Keyboard" package="CHOC-6.25U" value="KEYSWITCH-PLAIN-CHOC-6.25U" x="-166.37" y="233.68" smashed="yes">
+<attribute name="NAME" x="-166.37" y="227.465" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-166.37" y="227.465" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PRINT-SCREEN" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-124.46" y="132.08" smashed="yes">
+<element name="SW31" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-124.46" y="132.08" smashed="yes">
 <attribute name="NAME" x="-124.46" y="125.865" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-124.46" y="125.865" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="FOLDER" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-144.78" y="132.08" smashed="yes">
+<element name="SW32" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-144.78" y="132.08" smashed="yes">
 <attribute name="NAME" x="-144.78" y="125.865" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-144.78" y="125.865" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="CALC" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-165.1" y="132.08" smashed="yes">
+<element name="SW33" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-165.1" y="132.08" smashed="yes">
 <attribute name="NAME" x="-165.1" y="125.865" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-165.1" y="125.865" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="NOTES" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-185.42" y="132.08" smashed="yes">
+<element name="SW34" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-185.42" y="132.08" smashed="yes">
 <attribute name="NAME" x="-185.42" y="125.865" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-185.42" y="125.865" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RECORD" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-205.74" y="132.08" smashed="yes">
+<element name="SW35" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-205.74" y="132.08" smashed="yes">
 <attribute name="NAME" x="-205.74" y="125.865" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-205.74" y="125.865" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="SAVE_CLIP" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-22.86" y="152.4" smashed="yes">
+<element name="SW36" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-22.86" y="152.4" smashed="yes">
 <attribute name="NAME" x="-22.86" y="146.185" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-22.86" y="146.185" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="SKIP-BACK" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-43.18" y="152.4" smashed="yes">
+<element name="SW37" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-43.18" y="152.4" smashed="yes">
 <attribute name="NAME" x="-43.18" y="146.185" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-43.18" y="146.185" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="STOP" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-63.5" y="152.4" smashed="yes">
+<element name="SW38" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-63.5" y="152.4" smashed="yes">
 <attribute name="NAME" x="-63.5" y="146.185" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-63.5" y="146.185" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="SKIP-FORWARD" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-83.82" y="152.4" smashed="yes">
+<element name="SW39" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-83.82" y="152.4" smashed="yes">
 <attribute name="NAME" x="-83.82" y="146.185" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-83.82" y="146.185" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="MUTE" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-104.14" y="152.4" smashed="yes">
+<element name="SW40" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-104.14" y="152.4" smashed="yes">
 <attribute name="NAME" x="-104.14" y="146.185" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-104.14" y="146.185" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PREVIOUS" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-124.46" y="152.4" smashed="yes">
+<element name="SW41" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-124.46" y="152.4" smashed="yes">
 <attribute name="NAME" x="-124.46" y="146.185" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-124.46" y="146.185" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PLAY-PAUSE" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-144.78" y="152.4" smashed="yes">
+<element name="SW42" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-144.78" y="152.4" smashed="yes">
 <attribute name="NAME" x="-144.78" y="146.185" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-144.78" y="146.185" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="NEXT" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-165.1" y="152.4" smashed="yes">
+<element name="SW43" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-165.1" y="152.4" smashed="yes">
 <attribute name="NAME" x="-165.1" y="146.185" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-165.1" y="146.185" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PAD-MINUS" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-185.42" y="152.4" smashed="yes">
+<element name="SW44" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-185.42" y="152.4" smashed="yes">
 <attribute name="NAME" x="-185.42" y="146.185" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-185.42" y="146.185" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PAD-ASTERISK" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-205.74" y="152.4" smashed="yes">
+<element name="SW45" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-205.74" y="152.4" smashed="yes">
 <attribute name="NAME" x="-205.74" y="146.185" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-205.74" y="146.185" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PAD-SLASH" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-22.86" y="172.72" smashed="yes">
+<element name="SW46" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-22.86" y="172.72" smashed="yes">
 <attribute name="NAME" x="-22.86" y="166.505" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-22.86" y="166.505" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="NUM-LOCK" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-43.18" y="172.72" smashed="yes">
+<element name="SW47" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-43.18" y="172.72" smashed="yes">
 <attribute name="NAME" x="-43.18" y="166.505" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-43.18" y="166.505" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PAD7" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-63.5" y="172.72" smashed="yes">
+<element name="SW48" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-63.5" y="172.72" smashed="yes">
 <attribute name="NAME" x="-63.5" y="166.505" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-63.5" y="166.505" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PAD8" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-83.82" y="172.72" smashed="yes">
+<element name="SW49" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-83.82" y="172.72" smashed="yes">
 <attribute name="NAME" x="-83.82" y="166.505" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-83.82" y="166.505" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PAD9" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-104.14" y="172.72" smashed="yes">
+<element name="SW50" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-104.14" y="172.72" smashed="yes">
 <attribute name="NAME" x="-104.14" y="166.505" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-104.14" y="166.505" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PAD6" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-124.46" y="172.72" smashed="yes">
+<element name="SW51" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-124.46" y="172.72" smashed="yes">
 <attribute name="NAME" x="-124.46" y="166.505" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-124.46" y="166.505" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PAD5" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-144.78" y="172.72" smashed="yes">
+<element name="SW52" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-144.78" y="172.72" smashed="yes">
 <attribute name="NAME" x="-144.78" y="166.505" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-144.78" y="166.505" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PAD4" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-165.1" y="172.72" smashed="yes">
+<element name="SW53" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-165.1" y="172.72" smashed="yes">
 <attribute name="NAME" x="-165.1" y="166.505" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-165.1" y="166.505" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PAD1" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-185.42" y="172.72" smashed="yes">
+<element name="SW54" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-185.42" y="172.72" smashed="yes">
 <attribute name="NAME" x="-185.42" y="166.505" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-185.42" y="166.505" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PAD2" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-205.74" y="172.72" smashed="yes">
+<element name="SW55" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-205.74" y="172.72" smashed="yes">
 <attribute name="NAME" x="-205.74" y="166.505" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-205.74" y="166.505" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PAD3" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-22.86" y="193.04" smashed="yes">
+<element name="SW56" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-22.86" y="193.04" smashed="yes">
 <attribute name="NAME" x="-22.86" y="186.825" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-22.86" y="186.825" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PAD-PERIOD" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-43.18" y="193.04" smashed="yes">
+<element name="SW57" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-43.18" y="193.04" smashed="yes">
 <attribute name="NAME" x="-43.18" y="186.825" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-43.18" y="186.825" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RIGHT" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-63.5" y="193.04" smashed="yes">
+<element name="SW58" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-63.5" y="193.04" smashed="yes">
 <attribute name="NAME" x="-63.5" y="186.825" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-63.5" y="186.825" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="DOWN" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-83.82" y="193.04" smashed="yes">
+<element name="SW59" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-83.82" y="193.04" smashed="yes">
 <attribute name="NAME" x="-83.82" y="186.825" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-83.82" y="186.825" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="LEFT" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-104.14" y="193.04" smashed="yes">
+<element name="SW60" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-104.14" y="193.04" smashed="yes">
 <attribute name="NAME" x="-104.14" y="186.825" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-104.14" y="186.825" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RES-BY-LEFT" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-124.46" y="193.04" smashed="yes">
+<element name="SW61" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-124.46" y="193.04" smashed="yes">
 <attribute name="NAME" x="-124.46" y="186.825" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-124.46" y="186.825" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="UP" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-144.78" y="193.04" smashed="yes">
+<element name="SW62" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-144.78" y="193.04" smashed="yes">
 <attribute name="NAME" x="-144.78" y="186.825" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-144.78" y="186.825" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RES-BY-RIGHT" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-165.1" y="193.04" smashed="yes">
+<element name="SW63" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-165.1" y="193.04" smashed="yes">
 <attribute name="NAME" x="-165.1" y="186.825" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-165.1" y="186.825" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RES-BY-DOWN" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-185.42" y="193.04" smashed="yes">
+<element name="SW64" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-185.42" y="193.04" smashed="yes">
 <attribute name="NAME" x="-185.42" y="186.825" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-185.42" y="186.825" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RES-BY-END" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-205.74" y="193.04" smashed="yes">
+<element name="SW65" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-205.74" y="193.04" smashed="yes">
 <attribute name="NAME" x="-205.74" y="186.825" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-205.74" y="186.825" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RES-BY-DELETE" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-22.86" y="213.36" smashed="yes">
+<element name="SW66" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-22.86" y="213.36" smashed="yes">
 <attribute name="NAME" x="-22.86" y="207.145" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-22.86" y="207.145" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="DELETE" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-43.18" y="213.36" smashed="yes">
+<element name="SW67" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-43.18" y="213.36" smashed="yes">
 <attribute name="NAME" x="-43.18" y="207.145" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-43.18" y="207.145" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="END" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-63.5" y="213.36" smashed="yes">
+<element name="SW68" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-63.5" y="213.36" smashed="yes">
 <attribute name="NAME" x="-63.5" y="207.145" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-63.5" y="207.145" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PAGE-DOWN" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-83.82" y="213.36" smashed="yes">
+<element name="SW69" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-83.82" y="213.36" smashed="yes">
 <attribute name="NAME" x="-83.82" y="207.145" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-83.82" y="207.145" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="PAGE-UP" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-104.14" y="213.36" smashed="yes">
+<element name="SW70" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-104.14" y="213.36" smashed="yes">
 <attribute name="NAME" x="-104.14" y="207.145" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-104.14" y="207.145" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="HOME" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-124.46" y="213.36" smashed="yes">
+<element name="SW71" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-124.46" y="213.36" smashed="yes">
 <attribute name="NAME" x="-124.46" y="207.145" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-124.46" y="207.145" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="INSERT" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-144.78" y="213.36" smashed="yes">
+<element name="SW72" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-144.78" y="213.36" smashed="yes">
 <attribute name="NAME" x="-144.78" y="207.145" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-144.78" y="207.145" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="T" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="123.5" y="71.25" smashed="yes">
-<attribute name="NAME" x="123.5" y="65.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="123.5" y="65.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="T" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-165.1" y="213.36" smashed="yes">
+<attribute name="NAME" x="-165.1" y="207.145" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-165.1" y="207.145" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="TILDA" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-185.42" y="213.36" smashed="yes">
 <attribute name="NAME" x="-185.42" y="207.145" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="-185.42" y="207.145" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="U" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="161.5" y="71.25" smashed="yes">
-<attribute name="NAME" x="161.5" y="65.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="161.5" y="65.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="U" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-205.74" y="213.36" smashed="yes">
+<attribute name="NAME" x="-205.74" y="207.145" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-205.74" y="207.145" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="V" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="118.75" y="33.25" smashed="yes">
-<attribute name="NAME" x="118.75" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="118.75" y="27.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="V" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-22.86" y="233.68" smashed="yes">
+<attribute name="NAME" x="-22.86" y="227.465" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-22.86" y="227.465" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="W" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="66.5" y="71.25" smashed="yes">
-<attribute name="NAME" x="66.5" y="65.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="66.5" y="65.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="W" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-43.18" y="233.68" smashed="yes">
+<attribute name="NAME" x="-43.18" y="227.465" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-43.18" y="227.465" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="X" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="80.75" y="33.25" smashed="yes">
-<attribute name="NAME" x="80.75" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="80.75" y="27.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="X" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-63.5" y="233.68" smashed="yes">
+<attribute name="NAME" x="-63.5" y="227.465" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-63.5" y="227.465" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="Y" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="142.5" y="71.25" smashed="yes">
-<attribute name="NAME" x="142.5" y="65.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="142.5" y="65.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="Y" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-83.82" y="233.68" smashed="yes">
+<attribute name="NAME" x="-83.82" y="227.465" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-83.82" y="227.465" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="Z" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="61.75" y="33.25" smashed="yes">
-<attribute name="NAME" x="61.75" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="61.75" y="27.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="Z" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="-104.14" y="233.68" smashed="yes">
+<attribute name="NAME" x="-104.14" y="227.465" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-104.14" y="227.465" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 </elements>
 <signals>
