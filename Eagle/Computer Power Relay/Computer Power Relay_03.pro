@@ -1,0 +1,25 @@
+EAGLE AutoRouter Statistics:
+
+Job           : C:/Users/matth/Documents/EAGLE/projects/Computer Power Relay/Computer Power Relay.brd
+
+Start at      : 02:17:25 (2022-07-22)
+End at        : 02:17:32 (2022-07-22)
+Elapsed time  : 00:00:05
+
+Signals       :    49   RoutingGrid: 9.84252 mil  Layers: 2
+Connections   :   120   predefined:  37 ( 31 Vias )
+
+Router memory :   198588
+
+Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
+
+Time per pass     :  00:00:00  00:00:02  00:00:01  00:00:00  00:00:01  00:00:01
+Number of Ripups  :         0         3         0         0         0         0
+max. Level        :         0         1         0         0         0         0
+max. Total        :         0        32         0         0         0         0
+
+Routed            :         7        65        65        65        65        65
+Vias              :         0        33        15        14        12        12
+Resolution        :    36.7 %    85.0 %    85.0 %    85.0 %    85.0 %    85.0 %
+
+Final             : 
