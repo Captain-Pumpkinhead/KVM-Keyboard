@@ -10432,74 +10432,6 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <text x="-5.08" y="3.175" size="1.778" layer="25">&gt;NAME</text>
 <text x="-5.08" y="-5.08" size="1.778" layer="27">&gt;VALUE</text>
 </package>
-<package name="AUDIO_JACK_FEMALE_5-PIN">
-<description>&lt;h3&gt;Audio Jack - Female (5-pin)&lt;/h3&gt;
-&lt;p&gt;See symbol for pin details.&lt;/p&gt;
-&lt;p&gt;The plastic pin points may not be 100% accurate&lt;/p&gt;</description>
-<wire x1="6.35" y1="3.365" x2="6.35" y2="2.095" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="4" x2="3.175" y2="4" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="4" x2="3.81" y2="3.365" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="2.095" x2="3.175" y2="1.46" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="3.365" x2="4.445" y2="4" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="4" x2="5.715" y2="4" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="4" x2="6.35" y2="3.365" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="2.095" x2="5.715" y2="1.46" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="1.46" x2="4.445" y2="1.46" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="1.46" x2="3.81" y2="2.095" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="2.095" x2="1.27" y2="3.365" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="3.365" x2="-1.27" y2="2.095" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="4" x2="1.27" y2="3.365" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="2.095" x2="1.905" y2="1.46" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1.46" x2="1.905" y2="1.46" width="0.2032" layer="21"/>
-<wire x1="-5.715" y1="4" x2="-4.445" y2="4" width="0.2032" layer="21"/>
-<wire x1="-4.445" y1="4" x2="-3.81" y2="3.365" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="2.095" x2="-4.445" y2="1.46" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="3.365" x2="-3.175" y2="4" width="0.2032" layer="21"/>
-<wire x1="-3.175" y1="4" x2="-1.905" y2="4" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="4" x2="-1.27" y2="3.365" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="2.095" x2="-1.905" y2="1.46" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="1.46" x2="-3.175" y2="1.46" width="0.2032" layer="21"/>
-<wire x1="-3.175" y1="1.46" x2="-3.81" y2="2.095" width="0.2032" layer="21"/>
-<wire x1="-6.35" y1="3.365" x2="-6.35" y2="2.095" width="0.2032" layer="21"/>
-<wire x1="-5.715" y1="4" x2="-6.35" y2="3.365" width="0.2032" layer="21"/>
-<wire x1="-6.35" y1="2.095" x2="-5.715" y2="1.46" width="0.2032" layer="21"/>
-<wire x1="-4.445" y1="1.46" x2="-5.715" y2="1.46" width="0.2032" layer="21"/>
-<pad name="1" x="-5.08" y="2.73" drill="1.1" diameter="2"/>
-<pad name="2" x="-2.54" y="2.73" drill="1.1" diameter="2"/>
-<pad name="4" x="2.54" y="2.73" drill="1.1" diameter="2" rot="R180"/>
-<pad name="5" x="5.08" y="2.73" drill="1.1" diameter="2" rot="R180"/>
-<rectangle x1="4.826" y1="2.476" x2="5.334" y2="2.984" layer="51"/>
-<rectangle x1="2.286" y1="2.476" x2="2.794" y2="2.984" layer="51" rot="R90"/>
-<rectangle x1="-2.794" y1="2.476" x2="-2.286" y2="2.984" layer="51"/>
-<rectangle x1="-5.334" y1="2.476" x2="-4.826" y2="2.984" layer="51"/>
-<text x="0" y="0.27" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Audio Jack, Female (5-pin)</text>
-<wire x1="6.5" y1="-6" x2="6.5" y2="5" width="0.127" layer="21"/>
-<wire x1="6.5" y1="5" x2="-6.5" y2="5" width="0.127" layer="21"/>
-<wire x1="-6.5" y1="5" x2="-6.5" y2="-6" width="0.127" layer="21"/>
-<wire x1="-6.5" y1="-6" x2="-4.5" y2="-6" width="0.127" layer="21"/>
-<wire x1="4.5" y1="-6" x2="6.5" y2="-6" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-1.715" x2="-0.635" y2="-1.08" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="-1.08" x2="0.635" y2="-1.08" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.08" x2="1.27" y2="-1.715" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-2.985" x2="0.635" y2="-3.62" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-3.62" x2="-0.635" y2="-3.62" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="-3.62" x2="-1.27" y2="-2.985" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-2.985" x2="-1.27" y2="-1.715" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-1.715" x2="1.27" y2="-2.985" width="0.2032" layer="21"/>
-<pad name="3" x="0" y="-2.35" drill="1.1" diameter="2" rot="R180"/>
-<rectangle x1="-0.254" y1="-2.604" x2="0.254" y2="-2.096" layer="51"/>
-<wire x1="-4.5" y1="-7" x2="4.5" y2="-7" width="0.127" layer="21"/>
-<wire x1="-4.5" y1="-7" x2="-4.5" y2="-6" width="0.127" layer="21"/>
-<wire x1="-4.5" y1="-6" x2="4.5" y2="-6" width="0.127" layer="21"/>
-<wire x1="4.5" y1="-6" x2="4.5" y2="-7" width="0.127" layer="21"/>
-<wire x1="-3" y1="-9" x2="3" y2="-9" width="0.127" layer="21"/>
-<wire x1="-3" y1="-9" x2="-3" y2="-8" width="0.127" layer="21"/>
-<wire x1="-3" y1="-8" x2="-3" y2="-7" width="0.127" layer="21"/>
-<wire x1="3" y1="-7" x2="3" y2="-8" width="0.127" layer="21"/>
-<wire x1="3" y1="-8" x2="3" y2="-9" width="0.127" layer="21"/>
-<wire x1="-3" y1="-8" x2="3" y2="-8" width="0.127" layer="21"/>
-<rectangle x1="-3" y1="-9" x2="3" y2="-8" layer="21"/>
-</package>
 </packages>
 <packages3d>
 <package3d name="TL3XPO" urn="urn:adsk.eagle:package:27745/1" type="box">
@@ -10527,24 +10459,6 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pin name="S" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
 <pin name="O" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
 </symbol>
-<symbol name="AUDIO_JACK_FEMALE_5-PIN">
-<description>&lt;h3&gt;6 Pin Connection&lt;/h3&gt;</description>
-<wire x1="-5.715" y1="7.62" x2="5.715" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-3.175" y1="0" x2="-4.445" y2="0" width="0.6096" layer="94"/>
-<wire x1="-3.175" y1="2.54" x2="-4.445" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="-3.175" y1="5.08" x2="-4.445" y2="5.08" width="0.6096" layer="94"/>
-<wire x1="5.715" y1="-7.62" x2="5.715" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-5.715" y1="7.62" x2="-5.715" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="5.715" y1="-7.62" x2="-5.715" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-3.175" y1="-5.08" x2="-4.445" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="-3.175" y1="-2.54" x2="-4.445" y2="-2.54" width="0.6096" layer="94"/>
-<text x="0" y="9.906" size="1.778" layer="96" font="vector" rot="R180" align="bottom-center">&gt;Audio Jack, Female(5-pin)</text>
-<pin name="RIGHT" x="-9.525" y="5.08" length="middle" direction="in"/>
-<pin name="RTEST" x="-9.525" y="2.54" length="middle" direction="out"/>
-<pin name="GND" x="-9.525" y="0" length="middle" direction="sup"/>
-<pin name="LTEST" x="-9.525" y="-2.54" length="middle" direction="out"/>
-<pin name="LEFT" x="-9.525" y="-5.08" length="middle" direction="in"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SWITCH-SLIDE-2P2T" prefix="S">
@@ -10567,25 +10481,6 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <technology name="">
 <attribute name="POPULARITY" value="2" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="AUDIO_JACK_FEMALE_5-PIN">
-<gates>
-<gate name="G$1" symbol="AUDIO_JACK_FEMALE_5-PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="AUDIO_JACK_FEMALE_5-PIN">
-<connects>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="LEFT" pad="5"/>
-<connect gate="G$1" pin="LTEST" pad="4"/>
-<connect gate="G$1" pin="RIGHT" pad="1"/>
-<connect gate="G$1" pin="RTEST" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -10641,7 +10536,6 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <part name="C17" library="adafruit" deviceset="CAP-NONPOL-US" device="C0402K" value="100nF"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="27.4 Ω"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="27.4 Ω"/>
-<part name="U$3" library="Inventory" deviceset="AUDIO_JACK_FEMALE_5-PIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10794,7 +10688,6 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <attribute name="NAME" x="117.8814" y="31.75" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="122.682" y="29.21" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$3" gate="G$1" x="127" y="195.58" smashed="yes"/>
 </instances>
 <busses>
 </busses>

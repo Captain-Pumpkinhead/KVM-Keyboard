@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -956,7 +956,7 @@
 <rectangle x1="3.675" y1="5.65" x2="9.675" y2="7.15" layer="44" rot="R180"/>
 <rectangle x1="3.675" y1="-0.75" x2="9.675" y2="0.75" layer="44" rot="R270"/>
 </package>
-<package name="RELAY-HC2-PS-K" urn="urn:adsk.eagle:footprint:24071/1" locally_modified="yes">
+<package name="RELAY-HC2-PS-K">
 <description>&lt;b&gt;Relay Socked&lt;/b&gt; NAiS&lt;p&gt;Source: http://www.mew-europe.com/..  en_ds_61606_0000.pdf</description>
 <wire x1="10.55" y1="-3.2" x2="10.55" y2="-5.9" width="0.2032" layer="48"/>
 <wire x1="10.55" y1="-5.9" x2="10.45" y2="-6.2" width="0.2032" layer="48"/>
@@ -2484,7 +2484,7 @@
 <rectangle x1="3.675" y1="5.65" x2="9.675" y2="7.15" layer="44" rot="R180"/>
 <rectangle x1="3.675" y1="-0.75" x2="9.675" y2="0.75" layer="44" rot="R270"/>
 </package>
-<package name="RELAY-3V3-110V" urn="urn:adsk.eagle:footprint:24157/1" locally_modified="yes">
+<package name="RELAY-3V3-110V">
 <description>&lt;b&gt;AUTOMOTIVE LOW PROFILE MICRO-280 RELAY&lt;/b&gt; NAiS&lt;p&gt;
 Source: http://www.mew-europe.com/.. en_ds_61214_0000.pdf</description>
 <wire x1="22.0936" y1="29.5" x2="22.5" y2="29.0936" width="0.2032" layer="21" curve="-90"/>
@@ -4358,21 +4358,6 @@ Source: http://www.mew-europe.com/.. en_ds_61214_0000.pdf</description>
 <smd name="5V_2" x="3.81" y="6.35" dx="1.27" dy="12.7" layer="16"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="HC2-PS-K" urn="urn:adsk.eagle:package:24384/1" type="box">
-<description>Relay Socked NAiSSource: http://www.mew-europe.com/..  en_ds_61606_0000.pdf</description>
-<packageinstances>
-<packageinstance name="RELAY-HC2-PS-K"/>
-</packageinstances>
-</package3d>
-<package3d name="CV1A-MICRO-280" urn="urn:adsk.eagle:package:24461/1" type="box">
-<description>AUTOMOTIVE LOW PROFILE MICRO-280 RELAY NAiS
-Source: http://www.mew-europe.com/.. en_ds_61214_0000.pdf</description>
-<packageinstances>
-<packageinstance name="RELAY-3V3-110V"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
 <symbol name="RELAY-110VAC">
 <wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
@@ -4543,9 +4528,6 @@ Source: http://www.mew-europe.com/..  en_ds_61606_0000.pdf</description>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24384/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4626,9 +4608,6 @@ Source: http://www.mew-europe.com/.. en_ds_61214_0000.pdf</description>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24461/1"/>
-</package3dinstances>
 <technologies>
 <technology name="012">
 <attribute name="MF" value="" constant="no"/>
@@ -4743,7 +4722,7 @@ Source: http://www.mew-europe.com/.. en_ds_61214_0000.pdf</description>
 </classes>
 <parts>
 <part name="K3" library="Inventory" deviceset="RELAY-110VAC" device="V3_SMD" value="RELAY-110VACV3_SMD"/>
-<part name="K1" library="Inventory" deviceset="RELAY-3V3DC-110VAC" device="" package3d_urn="urn:adsk.eagle:package:24461/1" technology="012"/>
+<part name="K1" library="Inventory" deviceset="RELAY-3V3DC-110VAC" device="" technology="012"/>
 <part name="U$1" library="Inventory" deviceset="AUDIO_JACK_FEMALE_5-PIN" device=""/>
 <part name="U$2" library="Inventory" deviceset="MAINS-POWER-OUTLET" device="3-PIN-SMD" value="MAINS-POWER-OUTLET3-PIN-SMD"/>
 <part name="U$3" library="Inventory" deviceset="MAINS-POWER-OUTLET" device="3-PIN-SMD" value="MAINS-POWER-OUTLET3-PIN-SMD"/>
@@ -4962,16 +4941,6 @@ Source: http://www.mew-europe.com/.. en_ds_61214_0000.pdf</description>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
