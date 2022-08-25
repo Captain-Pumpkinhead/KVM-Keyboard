@@ -118,20 +118,32 @@
 <layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="138" name="EEE" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="139" name="_tKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="no"/>
 <layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
 <layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="no"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="156" name="DXF0409-TOP" color="7" fill="1" visible="no" active="no"/>
+<layer number="157" name="DXF0409-BOTTOM" color="7" fill="1" visible="no" active="no"/>
 <layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="no"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="no"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="no"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -176,10 +188,165 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="608" y2="0" width="0" layer="20"/>
-<wire x1="608" y1="0" x2="608" y2="461" width="0" layer="20"/>
-<wire x1="608" y1="461" x2="0" y2="461" width="0" layer="20"/>
-<wire x1="0" y1="461" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="460.75" y2="0" width="0" layer="20"/>
+<wire x1="460.75" y1="0" x2="460.75" y2="147.5" width="0" layer="20"/>
+<wire x1="460.75" y1="147.5" x2="0" y2="147.5" width="0" layer="20"/>
+<wire x1="0" y1="147.5" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="275.5" y1="99.75" x2="313.5" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="313.5" y1="99.75" x2="313.5" y2="80.75" width="0.1524" layer="21"/>
+<wire x1="313.5" y1="80.75" x2="285" y2="80.75" width="0.1524" layer="21"/>
+<wire x1="285" y1="80.75" x2="275.5" y2="80.75" width="0.1524" layer="21"/>
+<wire x1="275.5" y1="80.75" x2="275.5" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="285" y1="80.75" x2="285" y2="61.75" width="0.1524" layer="21"/>
+<wire x1="285" y1="61.75" x2="313.5" y2="61.75" width="0.1524" layer="21"/>
+<wire x1="313.5" y1="61.75" x2="313.5" y2="80.75" width="0.1524" layer="21"/>
+<wire x1="270.75" y1="42.75" x2="313.5" y2="42.75" width="0.1524" layer="21"/>
+<wire x1="313.5" y1="42.75" x2="313.5" y2="61.75" width="0.1524" layer="21"/>
+<wire x1="285" y1="61.75" x2="270.75" y2="61.75" width="0.1524" layer="21"/>
+<wire x1="270.75" y1="61.75" x2="270.75" y2="42.75" width="0.1524" layer="21"/>
+<wire x1="270.75" y1="42.75" x2="261.25" y2="42.75" width="0.1524" layer="21"/>
+<wire x1="261.25" y1="42.75" x2="261.25" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="261.25" y1="23.75" x2="266" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="266" y1="23.75" x2="289.75" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="289.75" y1="23.75" x2="313.5" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="313.5" y1="23.75" x2="313.5" y2="42.75" width="0.1524" layer="21"/>
+<wire x1="313.5" y1="23.75" x2="313.5" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="313.5" y1="4.75" x2="289.75" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="289.75" y1="23.75" x2="289.75" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="289.75" y1="4.75" x2="266" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="266" y1="23.75" x2="266" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="266" y1="4.75" x2="242.25" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="242.25" y1="4.75" x2="242.25" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="242.25" y1="23.75" x2="261.25" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="242.25" y1="4.75" x2="218.5" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="218.5" y1="4.75" x2="218.5" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="218.5" y1="23.75" x2="242.25" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="218.5" y1="23.75" x2="99.75" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="99.75" y1="23.75" x2="99.75" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="99.75" y1="4.75" x2="218.5" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="99.75" y1="4.75" x2="76" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="99.75" y1="23.75" x2="76" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="76" y1="23.75" x2="76" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="76" y1="4.75" x2="52.25" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="52.25" y1="4.75" x2="52.25" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="52.25" y1="23.75" x2="28.5" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="28.5" y1="23.75" x2="28.5" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="28.5" y1="4.75" x2="52.25" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="52.25" y1="23.75" x2="71.25" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="71.25" y1="23.75" x2="76" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="28.5" y1="80.75" x2="57" y2="80.75" width="0.1524" layer="21"/>
+<wire x1="57" y1="80.75" x2="57" y2="61.75" width="0.1524" layer="21"/>
+<wire x1="57" y1="61.75" x2="28.5" y2="61.75" width="0.1524" layer="21"/>
+<wire x1="28.5" y1="61.75" x2="28.5" y2="80.75" width="0.1524" layer="21"/>
+<wire x1="28.5" y1="61.75" x2="28.5" y2="42.75" width="0.1524" layer="21"/>
+<wire x1="28.5" y1="42.75" x2="61.75" y2="42.75" width="0.1524" layer="21"/>
+<wire x1="61.75" y1="42.75" x2="61.75" y2="61.75" width="0.1524" layer="21"/>
+<wire x1="61.75" y1="61.75" x2="57" y2="61.75" width="0.1524" layer="21"/>
+<wire x1="61.75" y1="42.75" x2="71.25" y2="42.75" width="0.1524" layer="21"/>
+<wire x1="71.25" y1="42.75" x2="71.25" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="28.5" y1="23.75" x2="28.5" y2="42.75" width="0.1524" layer="21"/>
+<wire x1="299.25" y1="104.5" x2="313.5" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="313.5" y1="104.5" x2="313.5" y2="123.5" width="0.1524" layer="21"/>
+<wire x1="313.5" y1="123.5" x2="313.5" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="313.5" y1="142.5" x2="299.25" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="299.25" y1="142.5" x2="299.25" y2="123.5" width="0.1524" layer="21"/>
+<wire x1="299.25" y1="123.5" x2="299.25" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="320.625" y1="26.125" x2="334.875" y2="26.125" width="0.1524" layer="21"/>
+<wire x1="334.875" y1="26.125" x2="334.875" y2="40.375" width="0.1524" layer="21"/>
+<wire x1="334.875" y1="40.375" x2="320.625" y2="40.375" width="0.1524" layer="21"/>
+<wire x1="320.625" y1="40.375" x2="320.625" y2="26.125" width="0.1524" layer="21"/>
+<wire x1="320.625" y1="45.125" x2="320.625" y2="59.375" width="0.1524" layer="21"/>
+<wire x1="320.625" y1="59.375" x2="334.875" y2="59.375" width="0.1524" layer="21"/>
+<wire x1="334.875" y1="59.375" x2="334.875" y2="45.125" width="0.1524" layer="21"/>
+<wire x1="334.875" y1="45.125" x2="320.625" y2="45.125" width="0.1524" layer="21"/>
+<wire x1="339.625" y1="59.375" x2="339.625" y2="45.125" width="0.1524" layer="21"/>
+<wire x1="339.625" y1="45.125" x2="353.875" y2="45.125" width="0.1524" layer="21"/>
+<wire x1="353.875" y1="45.125" x2="353.875" y2="59.375" width="0.1524" layer="21"/>
+<wire x1="353.875" y1="59.375" x2="339.625" y2="59.375" width="0.1524" layer="21"/>
+<wire x1="358.625" y1="59.375" x2="372.875" y2="59.375" width="0.1524" layer="21"/>
+<wire x1="372.875" y1="59.375" x2="372.875" y2="45.125" width="0.1524" layer="21"/>
+<wire x1="372.875" y1="45.125" x2="358.625" y2="45.125" width="0.1524" layer="21"/>
+<wire x1="358.625" y1="45.125" x2="358.625" y2="59.375" width="0.1524" layer="21"/>
+<wire x1="358.625" y1="40.375" x2="358.625" y2="26.125" width="0.1524" layer="21"/>
+<wire x1="358.625" y1="26.125" x2="372.875" y2="26.125" width="0.1524" layer="21"/>
+<wire x1="372.875" y1="26.125" x2="372.875" y2="40.375" width="0.1524" layer="21"/>
+<wire x1="372.875" y1="40.375" x2="358.625" y2="40.375" width="0.1524" layer="21"/>
+<wire x1="299.25" y1="123.5" x2="313.5" y2="123.5" width="0.1524" layer="21"/>
+<wire x1="380" y1="23.75" x2="380" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="380" y1="4.75" x2="418" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="418" y1="4.75" x2="418" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="418" y1="23.75" x2="380" y2="23.75" width="0.1524" layer="21"/>
+<wire x1="437" y1="4.75" x2="456" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="456" y1="4.75" x2="456" y2="42.75" width="0.1524" layer="21"/>
+<wire x1="456" y1="42.75" x2="456" y2="80.75" width="0.1524" layer="21"/>
+<wire x1="456" y1="80.75" x2="437" y2="80.75" width="0.1524" layer="21"/>
+<wire x1="437" y1="80.75" x2="437" y2="42.75" width="0.1524" layer="21"/>
+<wire x1="437" y1="42.75" x2="437" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="437" y1="42.75" x2="456" y2="42.75" width="0.1524" layer="21"/>
+<circle x="104.5" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="123.5" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="147.25" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="166.25" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="185.25" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="204.25" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="446.5" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="66.5" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<circle x="85.5" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<circle x="104.5" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<circle x="85.5" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="66.5" y="133" radius="6.7175125" width="0.1524" layer="21"/>
+<circle x="123.5" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<circle x="147.25" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<circle x="166.25" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<circle x="185.25" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<circle x="204.25" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<circle x="446.5" y="133" radius="8.10875625" width="0.1524" layer="21"/>
+<wire x1="28.5" y1="80.75" x2="28.5" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="28.5" y1="99.75" x2="275.5" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="218.5" y1="104.5" x2="294.5" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="294.5" y1="104.5" x2="294.5" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="294.5" y1="142.5" x2="218.5" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="218.5" y1="142.5" x2="218.5" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="213.75" y1="104.5" x2="137.75" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="133" y1="104.5" x2="57" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="57" y1="104.5" x2="57" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="57" y1="142.5" x2="133" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="137.75" y1="142.5" x2="213.75" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="213.75" y1="142.5" x2="213.75" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="47.5" y1="104.5" x2="47.5" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="47.5" y1="142.5" x2="28.5" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="28.5" y1="142.5" x2="28.5" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="28.5" y1="104.5" x2="47.5" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="23.75" y1="104.5" x2="4.75" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="4.75" y1="104.5" x2="4.75" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="4.75" y1="142.5" x2="23.75" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="23.75" y1="142.5" x2="23.75" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="23.75" y1="99.75" x2="23.75" y2="85.5" width="0.1524" layer="21"/>
+<wire x1="23.75" y1="80.75" x2="23.75" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="23.75" y1="4.75" x2="4.75" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="4.75" y1="4.75" x2="4.75" y2="80.75" width="0.1524" layer="21"/>
+<wire x1="4.75" y1="85.5" x2="4.75" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="4.75" y1="99.75" x2="23.75" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="133" y1="142.5" x2="133" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="137.75" y1="104.5" x2="137.75" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="318.25" y1="142.5" x2="375.25" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="375.25" y1="142.5" x2="375.25" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="375.25" y1="104.5" x2="318.25" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="318.25" y1="104.5" x2="318.25" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="380" y1="142.5" x2="380" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="380" y1="104.5" x2="456" y2="104.5" width="0.1524" layer="21"/>
+<wire x1="456" y1="104.5" x2="456" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="456" y1="142.5" x2="380" y2="142.5" width="0.1524" layer="21"/>
+<wire x1="318.25" y1="99.75" x2="375.25" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="375.25" y1="99.75" x2="375.25" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="375.25" y1="4.75" x2="318.25" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="318.25" y1="4.75" x2="318.25" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="437" y1="4.75" x2="418" y2="4.75" width="0.1524" layer="21"/>
+<wire x1="380" y1="23.75" x2="380" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="380" y1="99.75" x2="456" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="456" y1="99.75" x2="456" y2="80.75" width="0.1524" layer="21"/>
+<wire x1="23.75" y1="85.5" x2="4.75" y2="85.5" width="0.1524" layer="21"/>
+<wire x1="4.75" y1="80.75" x2="23.75" y2="80.75" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="bak-Keyboard">
@@ -235,6 +402,170 @@
 <hole x="50" y="7" drill="3.05"/>
 <hole x="-50" y="-8.24" drill="4"/>
 <hole x="50" y="-8.24" drill="4"/>
+</package>
+<package name="CHOC-2U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-11.9" y="7" drill="3.05"/>
+<hole x="11.9" y="7" drill="3.05"/>
+<hole x="-11.9" y="-8.24" drill="4"/>
+<hole x="11.9" y="-8.24" drill="4"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Switches">
+<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
+In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="ROTARY_ENC_PLAIN">
+<description>&lt;h3&gt;Rotary Encoder w/ Select Switch&lt;/h3&gt;
+&lt;p&gt;Encoders rotate similarly to potentiometers, but they’re different from potentiometers in that an encoder has full rotation without limits. They output gray code so that you can tell how much and in which direction the encoder has been turned.&lt;/p&gt;
+&lt;p&gt;This encoder includes a push-down select switch built into the shaft.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.sparkfun.com/datasheets/Components/TW-700198.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<pad name="C" x="7.493" y="0" drill="1.016"/>
+<pad name="SW+" x="-6.985" y="2.54" drill="1.016"/>
+<pad name="P$3" x="0" y="6.604" drill="2.286"/>
+<pad name="P$4" x="0" y="-6.604" drill="2.286"/>
+<pad name="SW-" x="-6.985" y="-2.54" drill="1.016"/>
+<pad name="B" x="7.493" y="2.54" drill="1.016"/>
+<pad name="A" x="7.493" y="-2.54" drill="1.016"/>
+<wire x1="-6.35" y1="6.35" x2="-2.54" y2="6.35" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="6.35" x2="6.35" y2="6.35" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="6.35" x2="6.35" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-6.35" x2="2.54" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-6.35" x2="-6.35" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="-6.35" y1="-6.35" x2="-6.35" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="-6.35" y1="6.35" x2="-6.35" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="-6.35" y1="1.27" x2="-6.35" y2="-1.27" width="0.2032" layer="21"/>
+<text x="5.08" y="6.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="5.08" y="-6.477" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+</packages>
+</library>
+<library name="adafruit">
+<packages>
+<package name="TACT_PANA-EVQ">
+<pad name="P$1" x="-3.25" y="0" drill="1.3" diameter="2.54"/>
+<pad name="P$2" x="3.25" y="0" drill="1.3" diameter="2.54"/>
+<wire x1="-3" y1="1.75" x2="3" y2="1.75" width="0.127" layer="51"/>
+<wire x1="3" y1="1.75" x2="3" y2="0.5" width="0.127" layer="51"/>
+<wire x1="3" y1="0.5" x2="3" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="3" y1="-0.5" x2="3" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="3" y1="-1.75" x2="-3" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-3" y1="-1.75" x2="-3" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="-0.5" x2="-3" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="0.5" x2="-3" y2="1.75" width="0.127" layer="51"/>
+<wire x1="3.95" y1="-0.5" x2="3.95" y2="0.5" width="0.127" layer="51"/>
+<wire x1="3.95" y1="0.5" x2="3" y2="0.5" width="0.127" layer="51"/>
+<wire x1="3" y1="0.5" x2="3" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="3" y1="-0.5" x2="3.95" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="3.95" y1="0.5" x2="3" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-3.95" y1="0" x2="-3.95" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-3.95" y1="0.5" x2="-3" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="0.5" x2="-3" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="-0.5" x2="-3.95" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-3.95" y1="-0.5" x2="-3.95" y2="0" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.127" layer="51"/>
+<wire x1="-3.1" y1="1.5" x2="-3.1" y2="1.9" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="1.9" x2="3.1" y2="1.9" width="0.127" layer="21"/>
+<wire x1="3.1" y1="1.9" x2="3.1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="-1.5" x2="-3.1" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="-1.9" x2="3.1" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="3.1" y1="-1.9" x2="3.1" y2="-1.5" width="0.127" layer="21"/>
+<text x="-3.043" y="2.17" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-3.016" y="-2.451" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="SparkFun-LED">
+<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
+This library contains discrete LEDs for illumination or indication, but no displays.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="LED-TRICOLOR-5050">
+<description>&lt;h3&gt;5050 SMD RGB LED&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;Specifications:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Pin count: 6&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.6mm&lt;/li&gt;
+&lt;li&gt;Area: 5.0mm x 5.mm&lt;/li&gt;
+&lt;li&gt;Thickness: 2.6mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Datasheet referenced for footprint:&lt;/b&gt;&lt;a href="http://cdn.sparkfun.com/datasheets/Components/LED/5060BRG4.pdf"&gt; 5060BRG4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Example device(s):&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;LED-RGB&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<circle x="-0.7" y="2" radius="0.2236" width="0" layer="21"/>
+<circle x="0" y="0" radius="2" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2" width="0.127" layer="51"/>
+<wire x1="-1.8" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-1" y1="2.5" x2="1" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="-1" y1="-2.5" x2="1" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="0.7" x2="-2.5" y2="0.9" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-0.9" x2="-2.5" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-0.9" x2="2.5" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="0.7" x2="2.5" y2="0.9" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="-0.127" x2="0.254" y2="0.127" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="0.127" x2="0.508" y2="0.127" width="0.2032" layer="21"/>
+<wire x1="0.508" y1="0.127" x2="0.508" y2="-0.127" width="0.2032" layer="21"/>
+<wire x1="0.508" y1="-0.127" x2="0.254" y2="-0.127" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="2" x2="-1.8" y2="2.5" width="0.127" layer="51"/>
+<rectangle x1="1.7" y1="-0.45" x2="2.7" y2="0.45" layer="51"/>
+<rectangle x1="1.7" y1="1.15" x2="2.7" y2="2.05" layer="51"/>
+<rectangle x1="1.7" y1="-2.05" x2="2.7" y2="-1.15" layer="51"/>
+<rectangle x1="-2.7" y1="1.15" x2="-1.7" y2="2.05" layer="51" rot="R180"/>
+<rectangle x1="-2.7" y1="-0.45" x2="-1.7" y2="0.45" layer="51" rot="R180"/>
+<rectangle x1="-2.7" y1="-2.05" x2="-1.7" y2="-1.15" layer="51" rot="R180"/>
+<smd name="1" x="-2.4" y="1.7" dx="2" dy="1.1" layer="1" roundness="100"/>
+<smd name="2" x="-2.4" y="0" dx="2" dy="1.1" layer="1" roundness="100"/>
+<smd name="3" x="-2.4" y="-1.7" dx="2" dy="1.1" layer="1" roundness="100"/>
+<smd name="4" x="2.4" y="-1.7" dx="2" dy="1.1" layer="1" roundness="100"/>
+<smd name="5" x="2.4" y="0" dx="2" dy="1.1" layer="1" roundness="100"/>
+<smd name="6" x="2.4" y="1.7" dx="2" dy="1.1" layer="1" roundness="100"/>
+<text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<circle x="-2.2875" y="2.635" radius="0.127" width="0.254" layer="21"/>
 </package>
 </packages>
 </library>
@@ -527,10 +858,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="228" y="107.785" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="228" y="107.785" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="FN" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="14.25" y="90.25" smashed="yes">
-<attribute name="NAME" x="14.25" y="84.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="14.25" y="84.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
 <element name="G" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="147.25" y="52.25" smashed="yes">
 <attribute name="NAME" x="147.25" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="147.25" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
@@ -671,17 +998,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="247" y="126.785" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="247" y="126.785" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RES-BY-BRIGHT-MINUS" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="304" y="133" smashed="yes">
-<attribute name="NAME" x="304" y="126.785" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="304" y="126.785" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="TAB" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="42.75" y="71.25" smashed="yes">
+<attribute name="NAME" x="42.75" y="65.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="42.75" y="65.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="RES-BY-ESC" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="38" y="133" smashed="yes">
 <attribute name="NAME" x="38" y="126.785" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="38" y="126.785" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RES-BY-F12" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="304" y="114" smashed="yes">
-<attribute name="NAME" x="304" y="107.785" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="304" y="107.785" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="CAPS-LOCK" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="45.125" y="52.25" smashed="yes">
+<attribute name="NAME" x="45.125" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="45.125" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="S" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="90.25" y="52.25" smashed="yes">
 <attribute name="NAME" x="90.25" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
@@ -691,9 +1018,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="14.25" y="107.785" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="14.25" y="107.785" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="SPACE" library="bak-Keyboard" package="CHOC-6.25U" value="KEYSWITCH-PLAIN-CHOC-6.25U" x="156.75" y="14.25" smashed="yes">
-<attribute name="NAME" x="156.75" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="156.75" y="8.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="SPACE" library="bak-Keyboard" package="CHOC-6.25U" value="KEYSWITCH-PLAIN-CHOC-6.25U" x="159.125" y="14.25" smashed="yes">
+<attribute name="NAME" x="159.125" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="159.125" y="8.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="PRINT-SCREEN" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="327.75" y="114" smashed="yes">
 <attribute name="NAME" x="327.75" y="107.785" size="1" layer="21" font="vector" ratio="13" align="center"/>
@@ -815,29 +1142,29 @@ design rules under a new name.</description>
 <attribute name="NAME" x="327.75" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="327.75" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RES-BY-LEFT" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="327.75" y="33.25" smashed="yes">
-<attribute name="NAME" x="327.75" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="327.75" y="27.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="BACKSLASH" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="299.25" y="71.25" smashed="yes">
+<attribute name="NAME" x="299.25" y="65.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="299.25" y="65.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="UP" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="346.75" y="33.25" smashed="yes">
 <attribute name="NAME" x="346.75" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="346.75" y="27.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RES-BY-RIGHT" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="365.75" y="33.25" smashed="yes">
-<attribute name="NAME" x="365.75" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="365.75" y="27.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="RIGHT-CTRL" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="301.625" y="14.25" smashed="yes">
+<attribute name="NAME" x="301.625" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="301.625" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RES-BY-DOWN" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="365.75" y="52.25" smashed="yes">
-<attribute name="NAME" x="365.75" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="365.75" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="LEFT-ALT" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="87.875" y="14.25" smashed="yes">
+<attribute name="NAME" x="87.875" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="87.875" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RES-BY-END" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="346.75" y="52.25" smashed="yes">
-<attribute name="NAME" x="346.75" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="346.75" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="LEFT-SUPER" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="64.125" y="14.25" smashed="yes">
+<attribute name="NAME" x="64.125" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="64.125" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RES-BY-DELETE" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="327.75" y="52.25" smashed="yes">
-<attribute name="NAME" x="327.75" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="327.75" y="46.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="LEFT-CTRL" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="40.375" y="14.25" smashed="yes">
+<attribute name="NAME" x="40.375" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="40.375" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="DELETE" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="327.75" y="71.25" smashed="yes">
 <attribute name="NAME" x="327.75" y="65.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
@@ -894,6 +1221,833 @@ design rules under a new name.</description>
 <element name="Z" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="80.75" y="33.25" smashed="yes">
 <attribute name="NAME" x="80.75" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="80.75" y="27.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="VOLUME_PC1" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="66.5" y="133" smashed="yes">
+<attribute name="NAME" x="71.58" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="66.5" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="71.58" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="VOLUME_PC2" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="85.5" y="133" smashed="yes">
+<attribute name="NAME" x="90.58" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="85.5" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="90.58" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="VOLUME_PC3" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="104.5" y="133" smashed="yes">
+<attribute name="NAME" x="109.58" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="104.5" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="109.58" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="VOLUME_PC4" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="123.5" y="133" smashed="yes">
+<attribute name="NAME" x="128.58" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="123.5" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="128.58" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RED_ROTENC" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="147.25" y="133" smashed="yes">
+<attribute name="NAME" x="152.33" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="147.25" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="152.33" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="GREEN_ROTENC" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="166.25" y="133" smashed="yes">
+<attribute name="NAME" x="171.33" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="166.25" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="171.33" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="BLUE_ROTENC" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="185.25" y="133" smashed="yes">
+<attribute name="NAME" x="190.33" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="185.25" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="190.33" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="BRIGHTNESS" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="204.25" y="133" smashed="yes">
+<attribute name="NAME" x="209.33" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="204.25" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="209.33" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="VOLUME_MASTER" library="SparkFun-Switches" package="ROTARY_ENC_PLAIN" value="ENCODER-SWITCH" x="446.5" y="133" smashed="yes">
+<attribute name="NAME" x="451.58" y="139.477" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="SF_SKU" value="COM-09117" x="446.5" y="133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="451.58" y="126.523" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="LSHIFT" library="bak-Keyboard" package="CHOC-2U" value="KEYSWITCH-PLAIN-CHOC-2U" x="49.875" y="33.25" smashed="yes">
+<attribute name="NAME" x="49.875" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="49.875" y="27.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="BACKSPACE" library="bak-Keyboard" package="CHOC-2U" value="KEYSWITCH-PLAIN-CHOC-2U" x="294.5" y="90.25" smashed="yes">
+<attribute name="NAME" x="294.5" y="84.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="294.5" y="84.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="ENTER" library="bak-Keyboard" package="CHOC-2U" value="KEYSWITCH-PLAIN-CHOC-2U" x="292.125" y="52.25" smashed="yes">
+<attribute name="NAME" x="292.125" y="46.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="292.125" y="46.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="RSHIFT" library="bak-Keyboard" package="CHOC-2U" value="KEYSWITCH-PLAIN-CHOC-2U" x="287.375" y="33.25" smashed="yes">
+<attribute name="NAME" x="287.375" y="27.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="287.375" y="27.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="PAD0" library="bak-Keyboard" package="CHOC-2U" value="KEYSWITCH-PLAIN-CHOC-2U" x="399" y="14.25" smashed="yes">
+<attribute name="NAME" x="399" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="399" y="8.035" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="PAD-PLUS" library="bak-Keyboard" package="CHOC-2U" value="KEYSWITCH-PLAIN-CHOC-2U" x="446.5" y="61.75" smashed="yes" rot="R90">
+<attribute name="NAME" x="452.715" y="61.75" size="1" layer="21" font="vector" ratio="13" rot="R90" align="center"/>
+<attribute name="NAME" x="452.715" y="61.75" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="center"/>
+</element>
+<element name="PAD-ENTER" library="bak-Keyboard" package="CHOC-2U" value="KEYSWITCH-PLAIN-CHOC-2U" x="446.5" y="23.75" smashed="yes" rot="R90">
+<attribute name="NAME" x="452.715" y="23.75" size="1" layer="21" font="vector" ratio="13" rot="R90" align="center"/>
+<attribute name="NAME" x="452.715" y="23.75" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="center"/>
+</element>
+<element name="MENU" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="277.875" y="14.25" smashed="yes">
+<attribute name="NAME" x="277.875" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="277.875" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="RIGHT-SUPER" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="254.125" y="14.25" smashed="yes">
+<attribute name="NAME" x="254.125" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="254.125" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="RIGHT-ALT" library="bak-Keyboard" package="CHOC-1U" value="KEYSWITCH-PLAIN-CHOC-1U" x="230.375" y="14.25" smashed="yes">
+<attribute name="NAME" x="230.375" y="8.035" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="230.375" y="8.035" size="1" layer="52" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="LCD-BUTTON-TOP" library="adafruit" package="TACT_PANA-EVQ" value="" x="306.375" y="133" smashed="yes">
+<attribute name="NAME" x="303.332" y="135.17" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="303.359" y="130.549" size="0.4064" layer="27" ratio="10"/>
+</element>
+<element name="LCD-BUTTON-BOTTOM" library="adafruit" package="TACT_PANA-EVQ" value="" x="306.375" y="114" smashed="yes">
+<attribute name="NAME" x="303.332" y="116.17" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="303.359" y="111.549" size="0.4064" layer="27" ratio="10"/>
+</element>
+<element name="RES-LEFT" library="adafruit" package="TACT_PANA-EVQ" value="" x="327.75" y="33.25" smashed="yes">
+<attribute name="NAME" x="324.707" y="35.42" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="324.734" y="30.799" size="0.4064" layer="27" ratio="10"/>
+</element>
+<element name="RES-RIGHT" library="adafruit" package="TACT_PANA-EVQ" value="" x="365.75" y="33.25" smashed="yes">
+<attribute name="NAME" x="362.707" y="35.42" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="362.734" y="30.799" size="0.4064" layer="27" ratio="10"/>
+</element>
+<element name="RES-DELETE" library="adafruit" package="TACT_PANA-EVQ" value="" x="327.75" y="52.25" smashed="yes">
+<attribute name="NAME" x="324.707" y="54.42" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="324.734" y="49.799" size="0.4064" layer="27" ratio="10"/>
+</element>
+<element name="RES-END" library="adafruit" package="TACT_PANA-EVQ" value="" x="346.75" y="52.25" smashed="yes">
+<attribute name="NAME" x="343.707" y="54.42" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="343.734" y="49.799" size="0.4064" layer="27" ratio="10"/>
+</element>
+<element name="RES-PGDN" library="adafruit" package="TACT_PANA-EVQ" value="" x="365.75" y="52.25" smashed="yes">
+<attribute name="NAME" x="362.707" y="54.42" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="362.734" y="49.799" size="0.4064" layer="27" ratio="10"/>
+</element>
+<element name="FN" library="adafruit" package="TACT_PANA-EVQ" value="" x="14.25" y="92.625" smashed="yes">
+<attribute name="NAME" x="11.207" y="94.795" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="11.234" y="90.174" size="0.4064" layer="27" ratio="10"/>
+</element>
+<element name="RGB_HIBERNATE" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="14.25" y="128.25" smashed="yes">
+<attribute name="NAME" x="14.25" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="14.25" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="14.25" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_SLEEP" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="14.25" y="109.25" smashed="yes">
+<attribute name="NAME" x="14.25" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="14.25" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="14.25" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_RES-BY-ESC" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="38" y="128.25" smashed="yes">
+<attribute name="NAME" x="38" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="38" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="38" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_ESC" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="38" y="109.25" smashed="yes">
+<attribute name="NAME" x="38" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="38" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="38" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_TILDA" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="38" y="85.5" smashed="yes">
+<attribute name="NAME" x="38" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="38" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="38" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_FN" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="14.25" y="87.875" smashed="yes">
+<attribute name="NAME" x="14.25" y="90.542" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="14.25" y="87.875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="14.25" y="85.208" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_KVM-PC1" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="14.25" y="66.5" smashed="yes">
+<attribute name="NAME" x="14.25" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="14.25" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="14.25" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_KVM-PC2" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="14.25" y="47.5" smashed="yes">
+<attribute name="NAME" x="14.25" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="14.25" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="14.25" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_KVM-PC3" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="14.25" y="28.5" smashed="yes">
+<attribute name="NAME" x="14.25" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="14.25" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="14.25" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_KVM-PC4" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="14.25" y="9.5" smashed="yes">
+<attribute name="NAME" x="14.25" y="12.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="14.25" y="9.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="14.25" y="6.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_LEFT-CTRL" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="40.375" y="9.5" smashed="yes">
+<attribute name="NAME" x="40.375" y="12.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="40.375" y="9.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="40.375" y="6.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_LEFT-SUPER" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="64.125" y="9.5" smashed="yes">
+<attribute name="NAME" x="64.125" y="12.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="64.125" y="9.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="64.125" y="6.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_LEFT-ALT" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="87.875" y="9.5" smashed="yes">
+<attribute name="NAME" x="87.875" y="12.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="87.875" y="9.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="87.875" y="6.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_Z" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="80.75" y="28.5" smashed="yes">
+<attribute name="NAME" x="80.75" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="80.75" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="80.75" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_X" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="99.75" y="28.5" smashed="yes">
+<attribute name="NAME" x="99.75" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="99.75" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="99.75" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_C" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="118.75" y="28.5" smashed="yes">
+<attribute name="NAME" x="118.75" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="118.75" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="118.75" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_F" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="128.25" y="47.5" smashed="yes">
+<attribute name="NAME" x="128.25" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="128.25" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="128.25" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_D" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="109.25" y="47.5" smashed="yes">
+<attribute name="NAME" x="109.25" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="109.25" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="109.25" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_S" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="90.25" y="47.5" smashed="yes">
+<attribute name="NAME" x="90.25" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="90.25" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="90.25" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_A" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="71.25" y="47.5" smashed="yes">
+<attribute name="NAME" x="71.25" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="71.25" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="71.25" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_LSHIFT" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="49.875" y="28.5" smashed="yes">
+<attribute name="NAME" x="49.875" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="49.875" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="49.875" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_CAPS-LOCK" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="45.125" y="47.5" smashed="yes">
+<attribute name="NAME" x="45.125" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="45.125" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="45.125" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_TAB" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="42.75" y="66.5" smashed="yes">
+<attribute name="NAME" x="42.75" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="42.75" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="42.75" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_Q" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="66.5" y="66.5" smashed="yes">
+<attribute name="NAME" x="66.5" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="66.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="66.5" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_W" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="85.5" y="66.5" smashed="yes">
+<attribute name="NAME" x="85.5" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="85.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="85.5" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_E" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="104.5" y="66.5" smashed="yes">
+<attribute name="NAME" x="104.5" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="104.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="104.5" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_R" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="123.5" y="66.5" smashed="yes">
+<attribute name="NAME" x="123.5" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="123.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="123.5" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_NUM1" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="57" y="85.5" smashed="yes">
+<attribute name="NAME" x="57" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="57" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="57" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_F1" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="66.5" y="109.25" smashed="yes">
+<attribute name="NAME" x="66.5" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="66.5" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="66.5" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_SPACE" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="159.125" y="9.5" smashed="yes">
+<attribute name="NAME" x="159.125" y="12.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="159.125" y="9.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="159.125" y="6.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_V" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="137.75" y="28.5" smashed="yes">
+<attribute name="NAME" x="137.75" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="137.75" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="137.75" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_T" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="142.5" y="66.5" smashed="yes">
+<attribute name="NAME" x="142.5" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="142.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="142.5" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_G" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="147.25" y="47.5" smashed="yes">
+<attribute name="NAME" x="147.25" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="147.25" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="147.25" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_B" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="156.75" y="28.5" smashed="yes">
+<attribute name="NAME" x="156.75" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="156.75" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="156.75" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_N" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="175.75" y="28.5" smashed="yes">
+<attribute name="NAME" x="175.75" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="175.75" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="175.75" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_M" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="194.75" y="28.5" smashed="yes">
+<attribute name="NAME" x="194.75" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="194.75" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="194.75" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_J" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="185.25" y="47.5" smashed="yes">
+<attribute name="NAME" x="185.25" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="185.25" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="185.25" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_H" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="166.25" y="47.5" smashed="yes">
+<attribute name="NAME" x="166.25" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="166.25" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="166.25" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_Y" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="161.5" y="66.5" smashed="yes">
+<attribute name="NAME" x="161.5" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="161.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="161.5" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_U" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="180.5" y="66.5" smashed="yes">
+<attribute name="NAME" x="180.5" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="180.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="180.5" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PRESENT" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="228" y="128.25" smashed="yes">
+<attribute name="NAME" x="228" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="228" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="228" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_RES-ABOVE-F10" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="247" y="128.25" smashed="yes">
+<attribute name="NAME" x="247" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="247" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="247" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_BRIGHTNESS-PLUS" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="266" y="128.25" smashed="yes">
+<attribute name="NAME" x="266" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="266" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="266" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_BRIGHTNESS-MINUS" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="285" y="128.25" smashed="yes">
+<attribute name="NAME" x="285" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="285" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="285" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_LCD-BUTTON-BOTTOM" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="306.375" y="109.25" smashed="yes">
+<attribute name="NAME" x="306.375" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="306.375" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="306.375" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_LCD-BUTTON-TOP" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="306.375" y="128.25" smashed="yes">
+<attribute name="NAME" x="306.375" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="306.375" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="306.375" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_FOLDER" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="327.75" y="128.25" smashed="yes">
+<attribute name="NAME" x="327.75" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="327.75" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="327.75" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PRINT-SCREEN" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="327.75" y="109.25" smashed="yes">
+<attribute name="NAME" x="327.75" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="327.75" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="327.75" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_I" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="199.5" y="66.5" smashed="yes">
+<attribute name="NAME" x="199.5" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="199.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="199.5" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_K" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="204.25" y="47.5" smashed="yes">
+<attribute name="NAME" x="204.25" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="204.25" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="204.25" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_LESS-THAN" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="213.75" y="28.5" smashed="yes">
+<attribute name="NAME" x="213.75" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="213.75" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="213.75" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_RIGHT-ALT" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="230.375" y="9.5" smashed="yes">
+<attribute name="NAME" x="230.375" y="12.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="230.375" y="9.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="230.375" y="6.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_RIGHT-SUPER" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="254.125" y="9.5" smashed="yes">
+<attribute name="NAME" x="254.125" y="12.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="254.125" y="9.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="254.125" y="6.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_MENU" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="277.875" y="9.5" smashed="yes">
+<attribute name="NAME" x="277.875" y="12.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="277.875" y="9.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="277.875" y="6.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_RIGHT-CTRL" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="301.625" y="9.5" smashed="yes">
+<attribute name="NAME" x="301.625" y="12.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="301.625" y="9.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="301.625" y="6.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_RSHIFT" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="287.375" y="28.5" smashed="yes">
+<attribute name="NAME" x="287.375" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="287.375" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="287.375" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_QUESTION-MARK" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="251.75" y="28.5" smashed="yes">
+<attribute name="NAME" x="251.75" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="251.75" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="251.75" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_GREATER-THAN" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="232.75" y="28.5" smashed="yes">
+<attribute name="NAME" x="232.75" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="232.75" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="232.75" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_L" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="223.25" y="47.5" smashed="yes">
+<attribute name="NAME" x="223.25" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="223.25" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="223.25" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_O" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="218.5" y="66.5" smashed="yes">
+<attribute name="NAME" x="218.5" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="218.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="218.5" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_P" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="237.5" y="66.5" smashed="yes">
+<attribute name="NAME" x="237.5" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="237.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="237.5" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_NUM-MINUS" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="247" y="85.5" smashed="yes">
+<attribute name="NAME" x="247" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="247" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="247" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_NUM-PLUS" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="266" y="85.5" smashed="yes">
+<attribute name="NAME" x="266" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="266" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="266" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_BACKSPACE" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="294.5" y="85.5" smashed="yes">
+<attribute name="NAME" x="294.5" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="294.5" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="294.5" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_BACKSLASH" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="299.25" y="66.5" smashed="yes">
+<attribute name="NAME" x="299.25" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="299.25" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="299.25" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_ENTER" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="292.125" y="47.5" smashed="yes">
+<attribute name="NAME" x="292.125" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="292.125" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="292.125" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_BRACE-CLOSING" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="275.5" y="66.5" smashed="yes">
+<attribute name="NAME" x="275.5" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="275.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="275.5" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_BRACE-OPENING" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="256.5" y="66.5" smashed="yes">
+<attribute name="NAME" x="256.5" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="256.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="256.5" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_QUOTATION-MARK" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="261.25" y="47.5" smashed="yes">
+<attribute name="NAME" x="261.25" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="261.25" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="261.25" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_COLON" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="242.25" y="47.5" smashed="yes">
+<attribute name="NAME" x="242.25" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="242.25" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="242.25" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_LEFT" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="327.75" y="9.5" smashed="yes">
+<attribute name="NAME" x="327.75" y="12.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="327.75" y="9.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="327.75" y="6.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_DOWN" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="346.75" y="9.5" smashed="yes">
+<attribute name="NAME" x="346.75" y="12.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="346.75" y="9.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="346.75" y="6.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_RIGHT" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="365.75" y="9.5" smashed="yes">
+<attribute name="NAME" x="365.75" y="12.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="365.75" y="9.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="365.75" y="6.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PAD0" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="399" y="9.5" smashed="yes">
+<attribute name="NAME" x="399" y="12.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="399" y="9.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="399" y="6.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PAD-PERIOD" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="427.5" y="9.5" smashed="yes">
+<attribute name="NAME" x="427.5" y="12.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="427.5" y="9.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="427.5" y="6.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PAD-ENTER" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="451.25" y="23.75" smashed="yes" rot="R90">
+<attribute name="NAME" x="448.583" y="23.75" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="451.25" y="23.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="453.917" y="23.75" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+</element>
+<element name="RGB_PAD-PLUS" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="451.25" y="61.75" smashed="yes" rot="R90">
+<attribute name="NAME" x="448.583" y="61.75" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="451.25" y="61.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="453.917" y="61.75" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+</element>
+<element name="RGB_PAD-MINUS" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="446.5" y="85.5" smashed="yes">
+<attribute name="NAME" x="446.5" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="446.5" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="446.5" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_NEXT" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="446.5" y="109.25" smashed="yes">
+<attribute name="NAME" x="446.5" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="446.5" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="446.5" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PLAY-PAUSE" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="427.5" y="109.25" smashed="yes">
+<attribute name="NAME" x="427.5" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="427.5" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="427.5" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PREVIOUS" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="408.5" y="109.25" smashed="yes">
+<attribute name="NAME" x="408.5" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="408.5" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="408.5" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_STOP" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="389.5" y="109.25" smashed="yes">
+<attribute name="NAME" x="389.5" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="389.5" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="389.5" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_SKIP-BACK" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="389.5" y="128.25" smashed="yes">
+<attribute name="NAME" x="389.5" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="389.5" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="389.5" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_SKIP-FORWARD" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="408.5" y="128.25" smashed="yes">
+<attribute name="NAME" x="408.5" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="408.5" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="408.5" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_MUTE" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="427.5" y="128.25" smashed="yes">
+<attribute name="NAME" x="427.5" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="427.5" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="427.5" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_NOTES" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="365.75" y="128.25" smashed="yes">
+<attribute name="NAME" x="365.75" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="365.75" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="365.75" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_CALC" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="346.75" y="128.25" smashed="yes">
+<attribute name="NAME" x="346.75" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="346.75" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="346.75" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_RECORD" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="346.75" y="109.25" smashed="yes">
+<attribute name="NAME" x="346.75" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="346.75" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="346.75" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_SAVE-CLIP" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="365.75" y="109.25" smashed="yes">
+<attribute name="NAME" x="365.75" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="365.75" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="365.75" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PAGE-UP" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="365.75" y="85.5" smashed="yes">
+<attribute name="NAME" x="365.75" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="365.75" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="365.75" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PAGE-DOWN" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="365.75" y="66.5" smashed="yes">
+<attribute name="NAME" x="365.75" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="365.75" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="365.75" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_RES-PGDN" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="365.75" y="47.5" smashed="yes">
+<attribute name="NAME" x="365.75" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="365.75" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="365.75" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_RES-RIGHT" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="365.75" y="28.5" smashed="yes">
+<attribute name="NAME" x="365.75" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="365.75" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="365.75" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_UP" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="346.75" y="28.5" smashed="yes">
+<attribute name="NAME" x="346.75" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="346.75" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="346.75" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_RES-LEFT" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="327.75" y="28.5" smashed="yes">
+<attribute name="NAME" x="327.75" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="327.75" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="327.75" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_RES-DELETE" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="327.75" y="47.5" smashed="yes">
+<attribute name="NAME" x="327.75" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="327.75" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="327.75" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_RES-END" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="346.75" y="47.5" smashed="yes">
+<attribute name="NAME" x="346.75" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="346.75" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="346.75" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_END" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="346.75" y="66.5" smashed="yes">
+<attribute name="NAME" x="346.75" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="346.75" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="346.75" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_DELETE" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="327.75" y="66.5" smashed="yes">
+<attribute name="NAME" x="327.75" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="327.75" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="327.75" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_INSERT" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="327.75" y="85.5" smashed="yes">
+<attribute name="NAME" x="327.75" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="327.75" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="327.75" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_HOME" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="346.75" y="85.5" smashed="yes">
+<attribute name="NAME" x="346.75" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="346.75" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="346.75" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_VOLUME-MASTER" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="453.625" y="125.875" smashed="yes">
+<attribute name="NAME" x="453.625" y="128.542" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="453.625" y="125.875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="453.625" y="123.208" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_BRIGHTNESS" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="209" y="128.25" smashed="yes">
+<attribute name="NAME" x="209" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="209" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="209" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_BLUE-ROTENC" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="190" y="128.25" smashed="yes">
+<attribute name="NAME" x="190" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="190" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="190" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_GREEN-ROTENC" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="171" y="128.25" smashed="yes">
+<attribute name="NAME" x="171" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="171" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="171" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_RED-ROTENC" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="152" y="128.25" smashed="yes">
+<attribute name="NAME" x="152" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="152" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="152" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_VOLUME-PC4" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="128.25" y="128.25" smashed="yes">
+<attribute name="NAME" x="128.25" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="128.25" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="128.25" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_VOLUME-PC3" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="109.25" y="128.25" smashed="yes">
+<attribute name="NAME" x="109.25" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="109.25" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="109.25" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_VOLUME-PC2" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="90.25" y="128.25" smashed="yes">
+<attribute name="NAME" x="90.25" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="90.25" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="90.25" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_VOLUME-PC1" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="71.25" y="128.25" smashed="yes">
+<attribute name="NAME" x="71.25" y="130.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="71.25" y="128.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="71.25" y="125.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_NUM-LOCK" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="389.5" y="85.5" smashed="yes">
+<attribute name="NAME" x="389.5" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="389.5" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="389.5" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PAD-SLASH" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="408.5" y="85.5" smashed="yes">
+<attribute name="NAME" x="408.5" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="408.5" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="408.5" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PAD-ASTERISK" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="427.5" y="85.5" smashed="yes">
+<attribute name="NAME" x="427.5" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="427.5" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="427.5" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PAD9" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="427.5" y="66.5" smashed="yes">
+<attribute name="NAME" x="427.5" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="427.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="427.5" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PAD8" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="408.5" y="66.5" smashed="yes">
+<attribute name="NAME" x="408.5" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="408.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="408.5" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PAD7" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="389.5" y="66.5" smashed="yes">
+<attribute name="NAME" x="389.5" y="69.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="389.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="389.5" y="63.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PAD4" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="389.5" y="47.5" smashed="yes">
+<attribute name="NAME" x="389.5" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="389.5" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="389.5" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PAD5" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="408.5" y="47.5" smashed="yes">
+<attribute name="NAME" x="408.5" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="408.5" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="408.5" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PAD6" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="427.5" y="47.5" smashed="yes">
+<attribute name="NAME" x="427.5" y="50.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="427.5" y="47.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="427.5" y="44.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PAD3" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="427.5" y="28.5" smashed="yes">
+<attribute name="NAME" x="427.5" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="427.5" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="427.5" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PAD2" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="408.5" y="28.5" smashed="yes">
+<attribute name="NAME" x="408.5" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="408.5" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="408.5" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_PAD1" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="389.5" y="28.5" smashed="yes">
+<attribute name="NAME" x="389.5" y="31.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="389.5" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="389.5" y="25.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_F2" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="85.5" y="109.25" smashed="yes">
+<attribute name="NAME" x="85.5" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="85.5" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="85.5" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_F3" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="104.5" y="109.25" smashed="yes">
+<attribute name="NAME" x="104.5" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="104.5" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="104.5" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_F4" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="123.5" y="109.25" smashed="yes">
+<attribute name="NAME" x="123.5" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="114" y="118.75" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="123.5" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_F5" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="147.25" y="109.25" smashed="yes">
+<attribute name="NAME" x="147.25" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="147.25" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="147.25" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_F6" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="166.25" y="109.25" smashed="yes">
+<attribute name="NAME" x="166.25" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="166.25" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="166.25" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_F7" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="185.25" y="109.25" smashed="yes">
+<attribute name="NAME" x="185.25" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="185.25" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="185.25" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_F8" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="204.25" y="109.25" smashed="yes">
+<attribute name="NAME" x="204.25" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="204.25" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="204.25" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_F9" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="228" y="109.25" smashed="yes">
+<attribute name="NAME" x="228" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="228" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="228" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_F10" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="247" y="109.25" smashed="yes">
+<attribute name="NAME" x="247" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="247" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="247" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_F11" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="266" y="109.25" smashed="yes">
+<attribute name="NAME" x="266" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="266" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="266" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_F12" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="285" y="109.25" smashed="yes">
+<attribute name="NAME" x="285" y="111.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="285" y="109.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="285" y="106.583" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_NUM2" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="76" y="85.5" smashed="yes">
+<attribute name="NAME" x="76" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="76" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="76" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_NUM3" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="95" y="85.5" smashed="yes">
+<attribute name="NAME" x="95" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="95" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="95" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_NUM4" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="114" y="85.5" smashed="yes">
+<attribute name="NAME" x="114" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="114" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="114" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_NUM5" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="133" y="85.5" smashed="yes">
+<attribute name="NAME" x="133" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="133" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="133" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_NUM6" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="152" y="85.5" smashed="yes">
+<attribute name="NAME" x="152" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="152" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="152" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_NUM7" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="171" y="85.5" smashed="yes">
+<attribute name="NAME" x="171" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="171" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="171" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_NUM8" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="190" y="85.5" smashed="yes">
+<attribute name="NAME" x="190" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="190" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="190" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_NUM9" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="209" y="85.5" smashed="yes">
+<attribute name="NAME" x="209" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="209" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="209" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="RGB_NUM0" library="SparkFun-LED" package="LED-TRICOLOR-5050" value="" x="228" y="85.5" smashed="yes">
+<attribute name="NAME" x="228" y="88.167" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-10298" x="228" y="85.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="228" y="82.833" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 </elements>
 <signals>
