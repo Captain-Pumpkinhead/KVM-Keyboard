@@ -13188,8 +13188,8 @@ shrink quad flat pack, square</description>
 <pin name="38.VCORE" x="45.72" y="-99.06" length="middle" direction="pwr" rot="R180"/>
 <pin name="39.USB3DN_RXDP4" x="-45.72" y="-25.4" length="middle"/>
 <pin name="40.USB3DN_RXDM4" x="-45.72" y="-27.94" length="middle"/>
-<pin name="41.USB2DN_DM6/PRT_DIS_M6" x="-45.72" y="-66.04" length="middle"/>
-<pin name="42.USB2DN_DP6/PRT_DIS_P6" x="-45.72" y="-68.58" length="middle"/>
+<pin name="41.USB2DN_DM6/PRT_DIS_M6" x="-45.72" y="-68.58" length="middle"/>
+<pin name="42.USB2DN_DP6/PRT_DIS_P6" x="-45.72" y="-66.04" length="middle"/>
 <pin name="43.VDD33" x="-2.54" y="-91.44" length="middle" direction="pwr"/>
 <pin name="44.PF3" x="45.72" y="22.86" length="middle" rot="R180"/>
 <pin name="45.PF4" x="45.72" y="20.32" length="middle" rot="R180"/>
@@ -17244,15 +17244,15 @@ Pins: 160 + Neopixels
 <net name="PICO.D-" class="0">
 <segment>
 <pinref part="U$1" gate="A" pin="41.USB2DN_DM6/PRT_DIS_M6"/>
-<wire x1="508" y1="464.82" x2="492.76" y2="464.82" width="0.1524" layer="91"/>
-<label x="492.76" y="464.82" size="1.778" layer="95"/>
+<wire x1="508" y1="462.28" x2="492.76" y2="462.28" width="0.1524" layer="91"/>
+<label x="492.76" y="462.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PICO.D+" class="0">
 <segment>
 <pinref part="U$1" gate="A" pin="42.USB2DN_DP6/PRT_DIS_P6"/>
-<wire x1="492.76" y1="462.28" x2="508" y2="462.28" width="0.1524" layer="91"/>
-<label x="492.76" y="462.28" size="1.778" layer="95"/>
+<wire x1="492.76" y1="464.82" x2="508" y2="464.82" width="0.1524" layer="91"/>
+<label x="492.76" y="464.82" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

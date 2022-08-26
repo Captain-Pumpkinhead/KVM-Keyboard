@@ -1609,6 +1609,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.889" y1="1.9558" x2="-0.381" y2="3.0988" layer="51"/>
 <rectangle x1="-2.159" y1="1.9558" x2="-1.651" y2="3.0988" layer="51"/>
 </package>
+<package name="DIODE_SMALL">
+<description>&lt;B&gt;Small Diode&lt;/B&gt;
+&lt;p&gt;Used for:&lt;ul&gt;
+&lt;li&gt;IN4148&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;diameter 1.5 mm, length 3.3 mm&lt;/p&gt;</description>
+<wire x1="1.65" y1="-0.75" x2="-1.65" y2="-0.75" width="0.1524" layer="21"/>
+<wire x1="1.65" y1="-0.75" x2="1.65" y2="0.75" width="0.1524" layer="21"/>
+<wire x1="-1.65" y1="0.75" x2="1.65" y2="0.75" width="0.1524" layer="21"/>
+<wire x1="-1.65" y1="0.75" x2="-1.65" y2="-0.75" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0" x2="2" y2="0" width="0.4" layer="51"/>
+<wire x1="-2.54" y1="0" x2="-2" y2="0" width="0.4" layer="51"/>
+<wire x1="-0.381" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.6096" y1="0.381" x2="0.6096" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="0.6096" y1="-0.381" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0.6096" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.381" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.381" width="0.1524" layer="21"/>
+<pad name="A" x="2.54" y="0" drill="0.475"/>
+<pad name="C" x="-2.54" y="0" drill="0.475"/>
+<text x="0" y="1.7" size="1.27" layer="25" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-1.7" size="1.27" layer="27" ratio="10" align="center">&gt;VALUE</text>
+<rectangle x1="-1.340625" y1="-0.75" x2="-0.928125" y2="0.75" layer="21"/>
+<wire x1="0.6" y1="0" x2="0.9144" y2="0" width="0.127" layer="21"/>
+<rectangle x1="-2" y1="-0.2" x2="-1.65" y2="0.2" layer="21"/>
+<rectangle x1="1.65" y1="-0.2" x2="2" y2="0.2" layer="21"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -3225,6 +3252,54 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-273.671" y="-172.905" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="-266.813" y="-173.032" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
+<element name="D1" library="KVM-Keyboard" package="DIODE_SMALL" value="" x="-270.75" y="-185.25" smashed="yes">
+<attribute name="NAME" x="-270.75" y="-183.55" size="1.27" layer="25" ratio="10" align="center"/>
+<attribute name="VALUE" x="-270.75" y="-186.95" size="1.27" layer="27" ratio="10" align="center"/>
+</element>
+<element name="D2" library="KVM-Keyboard" package="DIODE_SMALL" value="" x="-270.75" y="-190" smashed="yes">
+<attribute name="NAME" x="-270.75" y="-188.3" size="1.27" layer="25" ratio="10" align="center"/>
+<attribute name="VALUE" x="-270.75" y="-191.7" size="1.27" layer="27" ratio="10" align="center"/>
+</element>
+<element name="D3" library="KVM-Keyboard" package="DIODE_SMALL" value="" x="-270.75" y="-194.75" smashed="yes">
+<attribute name="NAME" x="-270.75" y="-193.05" size="1.27" layer="25" ratio="10" align="center"/>
+<attribute name="VALUE" x="-270.75" y="-196.45" size="1.27" layer="27" ratio="10" align="center"/>
+</element>
+<element name="D4" library="KVM-Keyboard" package="DIODE_SMALL" value="" x="-270.75" y="-199.5" smashed="yes">
+<attribute name="NAME" x="-270.75" y="-197.8" size="1.27" layer="25" ratio="10" align="center"/>
+<attribute name="VALUE" x="-270.75" y="-201.2" size="1.27" layer="27" ratio="10" align="center"/>
+</element>
+<element name="D5" library="KVM-Keyboard" package="DIODE_SMALL" value="" x="-270.75" y="-204.25" smashed="yes">
+<attribute name="NAME" x="-270.75" y="-202.55" size="1.27" layer="25" ratio="10" align="center"/>
+<attribute name="VALUE" x="-270.75" y="-205.95" size="1.27" layer="27" ratio="10" align="center"/>
+</element>
+<element name="D6" library="KVM-Keyboard" package="DIODE_SMALL" value="" x="-270.75" y="-209" smashed="yes">
+<attribute name="NAME" x="-270.75" y="-207.3" size="1.27" layer="25" ratio="10" align="center"/>
+<attribute name="VALUE" x="-270.75" y="-210.7" size="1.27" layer="27" ratio="10" align="center"/>
+</element>
+<element name="D7" library="KVM-Keyboard" package="DIODE_SMALL" value="" x="-270.75" y="-213.75" smashed="yes">
+<attribute name="NAME" x="-270.75" y="-212.05" size="1.27" layer="25" ratio="10" align="center"/>
+<attribute name="VALUE" x="-270.75" y="-215.45" size="1.27" layer="27" ratio="10" align="center"/>
+</element>
+<element name="D8" library="KVM-Keyboard" package="DIODE_SMALL" value="" x="-270.75" y="-218.5" smashed="yes">
+<attribute name="NAME" x="-270.75" y="-216.8" size="1.27" layer="25" ratio="10" align="center"/>
+<attribute name="VALUE" x="-270.75" y="-220.2" size="1.27" layer="27" ratio="10" align="center"/>
+</element>
+<element name="D9" library="KVM-Keyboard" package="DIODE_SMALL" value="" x="-270.75" y="-223.25" smashed="yes">
+<attribute name="NAME" x="-270.75" y="-221.55" size="1.27" layer="25" ratio="10" align="center"/>
+<attribute name="VALUE" x="-270.75" y="-224.95" size="1.27" layer="27" ratio="10" align="center"/>
+</element>
+<element name="D10" library="KVM-Keyboard" package="DIODE_SMALL" value="" x="-270.75" y="-228" smashed="yes">
+<attribute name="NAME" x="-270.75" y="-226.3" size="1.27" layer="25" ratio="10" align="center"/>
+<attribute name="VALUE" x="-270.75" y="-229.7" size="1.27" layer="27" ratio="10" align="center"/>
+</element>
+<element name="D11" library="KVM-Keyboard" package="DIODE_SMALL" value="" x="-270.75" y="-232.75" smashed="yes">
+<attribute name="NAME" x="-270.75" y="-231.05" size="1.27" layer="25" ratio="10" align="center"/>
+<attribute name="VALUE" x="-270.75" y="-234.45" size="1.27" layer="27" ratio="10" align="center"/>
+</element>
+<element name="D12" library="KVM-Keyboard" package="DIODE_SMALL" value="" x="-270.75" y="-237.5" smashed="yes">
+<attribute name="NAME" x="-270.75" y="-235.8" size="1.27" layer="25" ratio="10" align="center"/>
+<attribute name="VALUE" x="-270.75" y="-239.2" size="1.27" layer="27" ratio="10" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="9.VCORE">
@@ -3277,9 +3352,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="85.VCORE">
 <contactref element="U$1" pad="85"/>
-</signal>
-<signal name="101.VSS">
-<contactref element="U$1" pad="101"/>
 </signal>
 <signal name="IOVDD_2">
 <contactref element="U1" pad="1"/>
@@ -3546,6 +3618,8 @@ design rules under a new name.</description>
 <contactref element="USB5" pad="A12"/>
 <contactref element="USB5" pad="B1"/>
 <contactref element="USB5" pad="B12"/>
+<contactref element="D10" pad="C"/>
+<wire x1="-171.0508" y1="27.2808" x2="-273.29" y2="-228" width="0" layer="19" extent="1-1"/>
 <wire x1="-171" y1="28.5" x2="-171.0508" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-165.4986125" y1="28.5" x2="-171" y2="28.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-165.4374" y1="27.2808" x2="-165.4986125" y2="28.5" width="0" layer="19" extent="1-1"/>
@@ -3569,6 +3643,8 @@ design rules under a new name.</description>
 <contactref element="USB5" pad="A9"/>
 <contactref element="USB5" pad="B4"/>
 <contactref element="USB5" pad="B9"/>
+<contactref element="D9" pad="A"/>
+<wire x1="-169.4506" y1="27.2808" x2="-268.21" y2="-223.25" width="0" layer="19" extent="1-1"/>
 <wire x1="-169.499621875" y1="28.5" x2="-169.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-167.0376" y1="27.2808" x2="-169.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-166.998990625" y1="28.5" x2="-167.0376" y2="27.2808" width="0" layer="19" extent="1-1"/>
@@ -3676,6 +3752,8 @@ design rules under a new name.</description>
 <contactref element="USB1" pad="A12"/>
 <contactref element="USB1" pad="B1"/>
 <contactref element="USB1" pad="B12"/>
+<contactref element="D1" pad="C"/>
+<wire x1="-57.0508" y1="27.2808" x2="-273.29" y2="-185.25" width="0" layer="19" extent="1-1"/>
 <wire x1="-57" y1="28.5" x2="-57.0508" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-51.4986125" y1="28.5" x2="-57" y2="28.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-51.4374" y1="27.2808" x2="-51.4986125" y2="28.5" width="0" layer="19" extent="1-1"/>
@@ -3698,6 +3776,8 @@ design rules under a new name.</description>
 <contactref element="USB1" pad="A4"/>
 <contactref element="USB1" pad="A9"/>
 <contactref element="USB1" pad="B4"/>
+<contactref element="D2" pad="A"/>
+<wire x1="-55.499621875" y1="28.5" x2="-268.21" y2="-190" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.998990625" y1="28.5" x2="-55.499621875" y2="28.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-53.0376" y1="27.2808" x2="-52.998990625" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -3735,9 +3815,11 @@ design rules under a new name.</description>
 <contactref element="USB2" pad="A12"/>
 <contactref element="USB2" pad="B1"/>
 <contactref element="USB2" pad="B12"/>
+<contactref element="D3" pad="C"/>
+<wire x1="-19.0508" y1="27.2808" x2="-273.29" y2="-194.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-19" y1="28.5" x2="-19.0508" y2="27.2808" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.4986125" y1="28.5" x2="-19" y2="28.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-13.4374" y1="27.2808" x2="-13.4986125" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-19" y1="28.5" x2="-13.4986125" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.0508" y1="27.2808" x2="-19" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB2.TX+">
 <contactref element="USB2" pad="A2"/>
@@ -3758,9 +3840,11 @@ design rules under a new name.</description>
 <contactref element="USB2" pad="A9"/>
 <contactref element="USB2" pad="B4"/>
 <contactref element="USB2" pad="B9"/>
-<wire x1="-15.0376" y1="27.2808" x2="-14.998990625" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.4506" y1="27.2808" x2="-15.0376" y2="27.2808" width="0" layer="19" extent="1-1"/>
+<contactref element="D4" pad="A"/>
+<wire x1="-17.4506" y1="27.2808" x2="-268.21" y2="-199.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-17.499621875" y1="28.5" x2="-17.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.0376" y1="27.2808" x2="-17.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.998990625" y1="28.5" x2="-15.0376" y2="27.2808" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB2.CC1">
 <contactref element="USB2" pad="A5"/>
@@ -3802,6 +3886,8 @@ design rules under a new name.</description>
 <contactref element="USB3" pad="B12"/>
 <contactref element="USB3" pad="A12"/>
 <contactref element="USB3" pad="B1"/>
+<contactref element="D6" pad="C"/>
+<wire x1="-95.0508" y1="27.2808" x2="-273.29" y2="-209" width="0" layer="19" extent="1-1"/>
 <wire x1="-95" y1="28.5" x2="-95.0508" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-89.4986125" y1="28.5" x2="-95" y2="28.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-89.4374" y1="27.2808" x2="-89.4986125" y2="28.5" width="0" layer="19" extent="1-1"/>
@@ -3825,6 +3911,8 @@ design rules under a new name.</description>
 <contactref element="USB3" pad="A9"/>
 <contactref element="USB3" pad="B9"/>
 <contactref element="USB3" pad="B4"/>
+<contactref element="D5" pad="A"/>
+<wire x1="-93.4506" y1="27.2808" x2="-268.21" y2="-204.25" width="0" layer="19" extent="1-1"/>
 <wire x1="-93.499621875" y1="28.5" x2="-93.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-91.0376" y1="27.2808" x2="-93.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-90.998990625" y1="28.5" x2="-91.0376" y2="27.2808" width="0" layer="19" extent="1-1"/>
@@ -3869,6 +3957,8 @@ design rules under a new name.</description>
 <contactref element="USB4" pad="A12"/>
 <contactref element="USB4" pad="B12"/>
 <contactref element="USB4" pad="B1"/>
+<contactref element="D7" pad="C"/>
+<wire x1="-133.0508" y1="27.2808" x2="-273.29" y2="-213.75" width="0" layer="19" extent="1-1"/>
 <wire x1="-133" y1="28.5" x2="-133.0508" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-127.4986125" y1="28.5" x2="-133" y2="28.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-127.4374" y1="27.2808" x2="-127.4986125" y2="28.5" width="0" layer="19" extent="1-1"/>
@@ -3892,6 +3982,8 @@ design rules under a new name.</description>
 <contactref element="USB4" pad="A9"/>
 <contactref element="USB4" pad="B9"/>
 <contactref element="USB4" pad="B4"/>
+<contactref element="D8" pad="A"/>
+<wire x1="-131.4506" y1="27.2808" x2="-268.21" y2="-218.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-131.499621875" y1="28.5" x2="-131.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-129.0376" y1="27.2808" x2="-131.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-128.998990625" y1="28.5" x2="-129.0376" y2="27.2808" width="0" layer="19" extent="1-1"/>
@@ -3936,6 +4028,8 @@ design rules under a new name.</description>
 <contactref element="USB6" pad="A12"/>
 <contactref element="USB6" pad="B12"/>
 <contactref element="USB6" pad="B1"/>
+<contactref element="D11" pad="C"/>
+<wire x1="-209.0508" y1="27.2808" x2="-273.29" y2="-232.75" width="0" layer="19" extent="1-1"/>
 <wire x1="-209" y1="28.5" x2="-209.0508" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-203.4986125" y1="28.5" x2="-209" y2="28.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-203.4374" y1="27.2808" x2="-203.4986125" y2="28.5" width="0" layer="19" extent="1-1"/>
@@ -3959,6 +4053,8 @@ design rules under a new name.</description>
 <contactref element="USB6" pad="A9"/>
 <contactref element="USB6" pad="B9"/>
 <contactref element="USB6" pad="B4"/>
+<contactref element="D12" pad="A"/>
+<wire x1="-207.4506" y1="27.2808" x2="-268.21" y2="-237.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-207.499621875" y1="28.5" x2="-207.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-205.0376" y1="27.2808" x2="-207.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-204.998990625" y1="28.5" x2="-205.0376" y2="27.2808" width="0" layer="19" extent="1-1"/>
@@ -4004,9 +4100,41 @@ design rules under a new name.</description>
 </signal>
 <signal name="PICO.D-">
 <contactref element="U$1" pad="41"/>
+<contactref element="U5" pad="46"/>
+<wire x1="-202.8276" y1="-158.0964" x2="-203.05" y2="-20.0412" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PICO.D+">
 <contactref element="U$1" pad="42"/>
+<contactref element="U5" pad="47"/>
+<wire x1="-203.234" y1="-158.0964" x2="-202.65" y2="-20.0412" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND">
+<contactref element="U$1" pad="101"/>
+<contactref element="D1" pad="A"/>
+<contactref element="D3" pad="A"/>
+<contactref element="D6" pad="A"/>
+<contactref element="D7" pad="A"/>
+<contactref element="D11" pad="A"/>
+<contactref element="D10" pad="A"/>
+<wire x1="-268.21" y1="-228" x2="-268.21" y2="-232.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-268.21" y1="-213.75" x2="-268.21" y2="-228" width="0" layer="19" extent="1-1"/>
+<wire x1="-268.21" y1="-209" x2="-268.21" y2="-213.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-268.21" y1="-194.75" x2="-268.21" y2="-209" width="0" layer="19" extent="1-1"/>
+<wire x1="-268.21" y1="-185.25" x2="-268.21" y2="-194.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-204.25" y1="-14.25" x2="-268.21" y2="-185.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VCC">
+<contactref element="D4" pad="C"/>
+<contactref element="D2" pad="C"/>
+<contactref element="D5" pad="C"/>
+<contactref element="D8" pad="C"/>
+<contactref element="D12" pad="C"/>
+<contactref element="D9" pad="C"/>
+<wire x1="-273.29" y1="-218.5" x2="-273.29" y2="-223.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-273.29" y1="-204.25" x2="-273.29" y2="-218.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-273.29" y1="-199.5" x2="-273.29" y2="-204.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-273.29" y1="-190" x2="-273.29" y2="-199.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-273.29" y1="-237.5" x2="-273.29" y2="-223.25" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
