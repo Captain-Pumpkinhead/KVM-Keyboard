@@ -3546,146 +3546,68 @@ design rules under a new name.</description>
 <contactref element="USB5" pad="A12"/>
 <contactref element="USB5" pad="B1"/>
 <contactref element="USB5" pad="B12"/>
-<contactref element="USB3" pad="A1"/>
-<contactref element="USB3" pad="A12"/>
-<contactref element="USB3" pad="B1"/>
-<contactref element="USB3" pad="B12"/>
-<contactref element="USB4" pad="A1"/>
-<contactref element="USB4" pad="A12"/>
-<contactref element="USB4" pad="B1"/>
-<contactref element="USB4" pad="B12"/>
-<contactref element="USB6" pad="A1"/>
-<contactref element="USB6" pad="A12"/>
-<contactref element="USB6" pad="B1"/>
-<contactref element="USB6" pad="B12"/>
-<wire x1="-209" y1="28.5" x2="-209.0508" y2="27.2808" width="0" layer="19" extent="1-1"/>
-<wire x1="-203.4986125" y1="28.5" x2="-209" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-203.4374" y1="27.2808" x2="-203.4986125" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-171.0508" y1="27.2808" x2="-203.4374" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-171" y1="28.5" x2="-171.0508" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-165.4986125" y1="28.5" x2="-171" y2="28.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-165.4374" y1="27.2808" x2="-165.4986125" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-133.0508" y1="27.2808" x2="-165.4374" y2="27.2808" width="0" layer="19" extent="1-1"/>
-<wire x1="-133" y1="28.5" x2="-133.0508" y2="27.2808" width="0" layer="19" extent="1-1"/>
-<wire x1="-127.4986125" y1="28.5" x2="-133" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-127.4374" y1="27.2808" x2="-127.4986125" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-95.0508" y1="27.2808" x2="-127.4374" y2="27.2808" width="0" layer="19" extent="1-1"/>
-<wire x1="-95" y1="28.5" x2="-95.0508" y2="27.2808" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.4986125" y1="28.5" x2="-95" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.4374" y1="27.2808" x2="-89.4986125" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB5.TX+">
 <contactref element="USB5" pad="A2"/>
 <contactref element="USB5" pad="B2"/>
-<contactref element="USB3" pad="A2"/>
-<contactref element="USB4" pad="A2"/>
-<contactref element="USB6" pad="A2"/>
-<wire x1="-170.499875" y1="28.5" x2="-208.499875" y2="28.5" width="0" layer="19" extent="1-1"/>
+<contactref element="U$1" pad="36"/>
+<wire x1="-170.499875" y1="28.5" x2="-205.05" y2="-20.0412" width="0" layer="19" extent="1-1"/>
 <wire x1="-165.8438" y1="26.595" x2="-170.499875" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-132.499875" y1="28.5" x2="-165.8438" y2="26.595" width="0" layer="19" extent="1-1"/>
-<wire x1="-94.499875" y1="28.5" x2="-132.499875" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB5.TX-">
 <contactref element="USB5" pad="A3"/>
 <contactref element="USB5" pad="B3"/>
-<contactref element="USB3" pad="A3"/>
-<contactref element="USB4" pad="A3"/>
-<contactref element="USB6" pad="A3"/>
-<wire x1="-169.999746875" y1="28.5" x2="-207.999746875" y2="28.5" width="0" layer="19" extent="1-1"/>
+<contactref element="U$1" pad="37"/>
+<wire x1="-169.999746875" y1="28.5" x2="-204.65" y2="-20.0412" width="0" layer="19" extent="1-1"/>
 <wire x1="-166.6566" y1="26.595" x2="-169.999746875" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-131.999746875" y1="28.5" x2="-166.6566" y2="26.595" width="0" layer="19" extent="1-1"/>
-<wire x1="-93.999746875" y1="28.5" x2="-131.999746875" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB5.VBUS">
 <contactref element="USB5" pad="A4"/>
 <contactref element="USB5" pad="A9"/>
 <contactref element="USB5" pad="B4"/>
-<contactref element="USB3" pad="A4"/>
-<contactref element="USB3" pad="A9"/>
-<contactref element="USB3" pad="B4"/>
-<contactref element="USB4" pad="A4"/>
-<contactref element="USB4" pad="A9"/>
-<contactref element="USB4" pad="B4"/>
-<contactref element="USB6" pad="A4"/>
-<contactref element="USB6" pad="A9"/>
-<contactref element="USB6" pad="B4"/>
 <contactref element="USB5" pad="B9"/>
-<wire x1="-204.998990625" y1="28.5" x2="-207.499621875" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-205.0376" y1="27.2808" x2="-204.998990625" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-169.499621875" y1="28.5" x2="-204.998990625" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-169.4506" y1="27.2808" x2="-169.499621875" y2="28.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-169.499621875" y1="28.5" x2="-169.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-167.0376" y1="27.2808" x2="-169.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
 <wire x1="-166.998990625" y1="28.5" x2="-167.0376" y2="27.2808" width="0" layer="19" extent="1-1"/>
-<wire x1="-131.499621875" y1="28.5" x2="-166.998990625" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-128.998990625" y1="28.5" x2="-131.499621875" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-129.0376" y1="27.2808" x2="-128.998990625" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-93.499621875" y1="28.5" x2="-128.998990625" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-90.998990625" y1="28.5" x2="-93.499621875" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.0376" y1="27.2808" x2="-90.998990625" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB5.CC1">
 <contactref element="USB5" pad="A5"/>
-<contactref element="USB3" pad="A5"/>
-<contactref element="USB4" pad="A5"/>
-<contactref element="USB6" pad="A5"/>
-<wire x1="-168.999496875" y1="28.5" x2="-206.999496875" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-130.999496875" y1="28.5" x2="-168.999496875" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-92.999496875" y1="28.5" x2="-130.999496875" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB5.D+">
 <contactref element="USB5" pad="A6"/>
 <contactref element="USB5" pad="B6"/>
-<contactref element="USB3" pad="A6"/>
-<contactref element="USB4" pad="A6"/>
-<contactref element="USB6" pad="A6"/>
-<wire x1="-168.49936875" y1="28.5" x2="-206.49936875" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-167.825" y1="27.2808" x2="-168.49936875" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-130.49936875" y1="28.5" x2="-167.825" y2="27.2808" width="0" layer="19" extent="1-1"/>
-<wire x1="-92.49936875" y1="28.5" x2="-130.49936875" y2="28.5" width="0" layer="19" extent="1-1"/>
+<contactref element="U$1" pad="34"/>
+<wire x1="-167.825" y1="27.2808" x2="-205.85" y2="-20.0412" width="0" layer="19" extent="1-1"/>
+<wire x1="-168.49936875" y1="28.5" x2="-167.825" y2="27.2808" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB5.D-">
 <contactref element="USB5" pad="A7"/>
 <contactref element="USB5" pad="B7"/>
-<contactref element="USB3" pad="A7"/>
-<contactref element="USB4" pad="A7"/>
-<contactref element="USB6" pad="A7"/>
-<wire x1="-168.6378" y1="27.2808" x2="-205.99924375" y2="28.5" width="0" layer="19" extent="1-1"/>
+<contactref element="U$1" pad="35"/>
+<wire x1="-168.6378" y1="27.2808" x2="-205.45" y2="-20.0412" width="0" layer="19" extent="1-1"/>
 <wire x1="-167.99924375" y1="28.5" x2="-168.6378" y2="27.2808" width="0" layer="19" extent="1-1"/>
-<wire x1="-129.99924375" y1="28.5" x2="-167.99924375" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.99924375" y1="28.5" x2="-129.99924375" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB5.SBU">
 <contactref element="USB5" pad="A8"/>
 <contactref element="USB5" pad="B8"/>
-<contactref element="USB3" pad="A8"/>
-<contactref element="USB4" pad="A8"/>
-<contactref element="USB6" pad="A8"/>
-<wire x1="-169.0696" y1="26.595" x2="-205.49911875" y2="28.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-167.49911875" y1="28.5" x2="-169.0696" y2="26.595" width="0" layer="19" extent="1-1"/>
-<wire x1="-129.49911875" y1="28.5" x2="-167.49911875" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.49911875" y1="28.5" x2="-129.49911875" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB5.RX-">
 <contactref element="USB5" pad="A10"/>
 <contactref element="USB5" pad="B10"/>
-<contactref element="USB3" pad="A10"/>
-<contactref element="USB4" pad="A10"/>
-<contactref element="USB6" pad="A10"/>
-<wire x1="-169.857" y1="26.595" x2="-204.498865625" y2="28.5" width="0" layer="19" extent="1-1"/>
+<contactref element="U$1" pad="40"/>
+<wire x1="-169.857" y1="26.595" x2="-203.45" y2="-20.0412" width="0" layer="19" extent="1-1"/>
 <wire x1="-166.498865625" y1="28.5" x2="-169.857" y2="26.595" width="0" layer="19" extent="1-1"/>
-<wire x1="-128.498865625" y1="28.5" x2="-166.498865625" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-90.498865625" y1="28.5" x2="-128.498865625" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB5.RX+">
 <contactref element="USB5" pad="A11"/>
 <contactref element="USB5" pad="B11"/>
-<contactref element="USB3" pad="A11"/>
-<contactref element="USB4" pad="A11"/>
-<contactref element="USB6" pad="A11"/>
-<wire x1="-170.6444" y1="26.595" x2="-203.998740625" y2="28.5" width="0" layer="19" extent="1-1"/>
+<contactref element="U$1" pad="39"/>
+<wire x1="-170.6444" y1="26.595" x2="-203.85" y2="-20.0412" width="0" layer="19" extent="1-1"/>
 <wire x1="-165.998740625" y1="28.5" x2="-170.6444" y2="26.595" width="0" layer="19" extent="1-1"/>
-<wire x1="-127.998740625" y1="28.5" x2="-165.998740625" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.998740625" y1="28.5" x2="-127.998740625" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB.SHIELDING">
 <contactref element="USB5" pad="27"/>
@@ -3736,105 +3658,18 @@ design rules under a new name.</description>
 <wire x1="-12.11930625" y1="26.695" x2="-20.37930625" y2="26.695" width="0" layer="19" extent="1-1"/>
 <wire x1="-11.75930625" y1="22.295" x2="-12.11930625" y2="26.695" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$32">
-<contactref element="USB3" pad="B9"/>
-<contactref element="USB4" pad="B9"/>
-<contactref element="USB6" pad="B9"/>
-<wire x1="-131.4506" y1="27.2808" x2="-207.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
-<wire x1="-93.4506" y1="27.2808" x2="-131.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="USB5.CC2">
 <contactref element="USB5" pad="B5"/>
-<contactref element="USB3" pad="B5"/>
-<contactref element="USB4" pad="B5"/>
-<contactref element="USB6" pad="B5"/>
-<wire x1="-167.4694" y1="26.595" x2="-205.4694" y2="26.595" width="0" layer="19" extent="1-1"/>
-<wire x1="-129.4694" y1="26.595" x2="-167.4694" y2="26.595" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.4694" y1="26.595" x2="-129.4694" y2="26.595" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB1RX-">
 <contactref element="USB1" pad="B10"/>
+<contactref element="U$1" pad="95"/>
+<wire x1="-55.857" y1="26.595" x2="-207.05" y2="-8.4588" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB1.R+">
 <contactref element="USB1" pad="B11"/>
-</signal>
-<signal name="N$39">
-<contactref element="USB2" pad="B2"/>
-</signal>
-<signal name="N$40">
-<contactref element="USB2" pad="B3"/>
-</signal>
-<signal name="N$41">
-<contactref element="USB2" pad="B6"/>
-</signal>
-<signal name="N$42">
-<contactref element="USB2" pad="B7"/>
-</signal>
-<signal name="N$43">
-<contactref element="USB2" pad="B8"/>
-</signal>
-<signal name="N$46">
-<contactref element="USB3" pad="B2"/>
-</signal>
-<signal name="N$47">
-<contactref element="USB3" pad="B3"/>
-</signal>
-<signal name="N$48">
-<contactref element="USB3" pad="B6"/>
-</signal>
-<signal name="N$49">
-<contactref element="USB3" pad="B7"/>
-</signal>
-<signal name="N$50">
-<contactref element="USB3" pad="B8"/>
-</signal>
-<signal name="N$51">
-<contactref element="USB3" pad="B10"/>
-</signal>
-<signal name="N$52">
-<contactref element="USB3" pad="B11"/>
-</signal>
-<signal name="N$53">
-<contactref element="USB4" pad="B2"/>
-</signal>
-<signal name="N$54">
-<contactref element="USB4" pad="B3"/>
-</signal>
-<signal name="N$55">
-<contactref element="USB4" pad="B6"/>
-</signal>
-<signal name="N$56">
-<contactref element="USB4" pad="B7"/>
-</signal>
-<signal name="N$57">
-<contactref element="USB4" pad="B8"/>
-</signal>
-<signal name="N$58">
-<contactref element="USB4" pad="B10"/>
-</signal>
-<signal name="N$59">
-<contactref element="USB4" pad="B11"/>
-</signal>
-<signal name="N$60">
-<contactref element="USB6" pad="B2"/>
-</signal>
-<signal name="N$61">
-<contactref element="USB6" pad="B3"/>
-</signal>
-<signal name="N$62">
-<contactref element="USB6" pad="B6"/>
-</signal>
-<signal name="N$63">
-<contactref element="USB6" pad="B7"/>
-</signal>
-<signal name="N$64">
-<contactref element="USB6" pad="B8"/>
-</signal>
-<signal name="N$65">
-<contactref element="USB6" pad="B10"/>
-</signal>
-<signal name="N$66">
-<contactref element="USB6" pad="B11"/>
+<contactref element="U$1" pad="94"/>
+<wire x1="-56.6444" y1="26.595" x2="-206.65" y2="-8.4588" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB1.GND">
 <contactref element="USB1" pad="A1"/>
@@ -3848,11 +3683,15 @@ design rules under a new name.</description>
 <signal name="USB1.TX+">
 <contactref element="USB1" pad="A2"/>
 <contactref element="USB1" pad="B2"/>
+<contactref element="U$1" pad="91"/>
+<wire x1="-56.499875" y1="28.5" x2="-205.45" y2="-8.4588" width="0" layer="19" extent="1-1"/>
 <wire x1="-51.8438" y1="26.595" x2="-56.499875" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB1.TX-">
 <contactref element="USB1" pad="A3"/>
 <contactref element="USB1" pad="B3"/>
+<contactref element="U$1" pad="92"/>
+<wire x1="-55.999746875" y1="28.5" x2="-205.85" y2="-8.4588" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.6566" y1="26.595" x2="-55.999746875" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB1.VBUS">
@@ -3902,9 +3741,17 @@ design rules under a new name.</description>
 </signal>
 <signal name="USB2.TX+">
 <contactref element="USB2" pad="A2"/>
+<contactref element="USB2" pad="B2"/>
+<contactref element="U$1" pad="7"/>
+<wire x1="-18.499875" y1="28.5" x2="-210.0412" y2="-11.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.8438" y1="26.595" x2="-18.499875" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB2.TX-">
 <contactref element="USB2" pad="A3"/>
+<contactref element="USB2" pad="B3"/>
+<contactref element="U$1" pad="8"/>
+<wire x1="-17.999746875" y1="28.5" x2="-210.0412" y2="-12.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.6566" y1="26.595" x2="-17.999746875" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB2.VBUS">
 <contactref element="USB2" pad="A4"/>
@@ -3920,25 +3767,246 @@ design rules under a new name.</description>
 </signal>
 <signal name="USB2.D+">
 <contactref element="USB2" pad="A6"/>
+<contactref element="USB2" pad="B6"/>
+<wire x1="-15.825" y1="27.2808" x2="-16.49936875" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB2.D-">
 <contactref element="USB2" pad="A7"/>
+<contactref element="USB2" pad="B7"/>
+<wire x1="-16.6378" y1="27.2808" x2="-15.99924375" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB2.SBU">
 <contactref element="USB2" pad="A8"/>
+<contactref element="USB2" pad="B8"/>
+<wire x1="-17.0696" y1="26.595" x2="-15.49911875" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB2.RX-">
 <contactref element="USB2" pad="A10"/>
 <contactref element="USB2" pad="B10"/>
-<wire x1="-17.857" y1="26.595" x2="-14.498865625" y2="28.5" width="0" layer="19" extent="1-1"/>
+<contactref element="U$1" pad="11"/>
+<wire x1="-17.857" y1="26.595" x2="-210.0412" y2="-13.45" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.498865625" y1="28.5" x2="-17.857" y2="26.595" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB2.RX+">
 <contactref element="USB2" pad="A11"/>
 <contactref element="USB2" pad="B11"/>
-<wire x1="-18.6444" y1="26.595" x2="-13.998740625" y2="28.5" width="0" layer="19" extent="1-1"/>
+<contactref element="U$1" pad="10"/>
+<wire x1="-18.6444" y1="26.595" x2="-210.0412" y2="-13.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.998740625" y1="28.5" x2="-18.6444" y2="26.595" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB2.CC2">
 <contactref element="USB2" pad="B5"/>
+</signal>
+<signal name="USB3.GND">
+<contactref element="USB3" pad="A1"/>
+<contactref element="USB3" pad="B12"/>
+<contactref element="USB3" pad="A12"/>
+<contactref element="USB3" pad="B1"/>
+<wire x1="-95" y1="28.5" x2="-95.0508" y2="27.2808" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.4986125" y1="28.5" x2="-95" y2="28.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.4374" y1="27.2808" x2="-89.4986125" y2="28.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB3.TX+">
+<contactref element="USB3" pad="A2"/>
+<contactref element="USB3" pad="B2"/>
+<contactref element="U$1" pad="16"/>
+<wire x1="-94.499875" y1="28.5" x2="-210.0412" y2="-15.45" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.8438" y1="26.595" x2="-94.499875" y2="28.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB3.TX-">
+<contactref element="USB3" pad="A3"/>
+<contactref element="USB3" pad="B3"/>
+<contactref element="U$1" pad="17"/>
+<wire x1="-93.999746875" y1="28.5" x2="-210.0412" y2="-15.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-90.6566" y1="26.595" x2="-93.999746875" y2="28.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB3.VBUS">
+<contactref element="USB3" pad="A4"/>
+<contactref element="USB3" pad="A9"/>
+<contactref element="USB3" pad="B9"/>
+<contactref element="USB3" pad="B4"/>
+<wire x1="-93.499621875" y1="28.5" x2="-93.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.0376" y1="27.2808" x2="-93.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
+<wire x1="-90.998990625" y1="28.5" x2="-91.0376" y2="27.2808" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB3.CC1">
+<contactref element="USB3" pad="A5"/>
+</signal>
+<signal name="USB3.D+">
+<contactref element="USB3" pad="A6"/>
+<contactref element="USB3" pad="B6"/>
+<wire x1="-92.49936875" y1="28.5" x2="-91.825" y2="27.2808" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB3.D-">
+<contactref element="USB3" pad="A7"/>
+<contactref element="USB3" pad="B7"/>
+<wire x1="-91.99924375" y1="28.5" x2="-92.6378" y2="27.2808" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB3.SBU">
+<contactref element="USB3" pad="A8"/>
+<contactref element="USB3" pad="B8"/>
+<wire x1="-91.49911875" y1="28.5" x2="-93.0696" y2="26.595" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB3.RX+">
+<contactref element="USB3" pad="A11"/>
+<contactref element="USB3" pad="B11"/>
+<contactref element="U$1" pad="19"/>
+<wire x1="-94.6444" y1="26.595" x2="-210.0412" y2="-16.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.998740625" y1="28.5" x2="-94.6444" y2="26.595" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB3.RX-">
+<contactref element="USB3" pad="A10"/>
+<contactref element="USB3" pad="B10"/>
+<contactref element="U$1" pad="20"/>
+<wire x1="-93.857" y1="26.595" x2="-210.0412" y2="-17.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-90.498865625" y1="28.5" x2="-93.857" y2="26.595" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB3.CC2">
+<contactref element="USB3" pad="B5"/>
+</signal>
+<signal name="USB4.GND">
+<contactref element="USB4" pad="A1"/>
+<contactref element="USB4" pad="A12"/>
+<contactref element="USB4" pad="B12"/>
+<contactref element="USB4" pad="B1"/>
+<wire x1="-133" y1="28.5" x2="-133.0508" y2="27.2808" width="0" layer="19" extent="1-1"/>
+<wire x1="-127.4986125" y1="28.5" x2="-133" y2="28.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-127.4374" y1="27.2808" x2="-127.4986125" y2="28.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB4.TX+">
+<contactref element="USB4" pad="A2"/>
+<contactref element="USB4" pad="B2"/>
+<contactref element="U$1" pad="29"/>
+<wire x1="-132.499875" y1="28.5" x2="-207.85" y2="-20.0412" width="0" layer="19" extent="1-1"/>
+<wire x1="-127.8438" y1="26.595" x2="-132.499875" y2="28.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB4.TX-">
+<contactref element="USB4" pad="A3"/>
+<contactref element="USB4" pad="B3"/>
+<contactref element="U$1" pad="30"/>
+<wire x1="-131.999746875" y1="28.5" x2="-207.45" y2="-20.0412" width="0" layer="19" extent="1-1"/>
+<wire x1="-128.6566" y1="26.595" x2="-131.999746875" y2="28.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB4.VBUS">
+<contactref element="USB4" pad="A4"/>
+<contactref element="USB4" pad="A9"/>
+<contactref element="USB4" pad="B9"/>
+<contactref element="USB4" pad="B4"/>
+<wire x1="-131.499621875" y1="28.5" x2="-131.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
+<wire x1="-129.0376" y1="27.2808" x2="-131.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
+<wire x1="-128.998990625" y1="28.5" x2="-129.0376" y2="27.2808" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB4.CC1">
+<contactref element="USB4" pad="A5"/>
+</signal>
+<signal name="USB4.D+">
+<contactref element="USB4" pad="A6"/>
+<contactref element="USB4" pad="B6"/>
+<wire x1="-130.49936875" y1="28.5" x2="-129.825" y2="27.2808" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB4.D-">
+<contactref element="USB4" pad="A7"/>
+<contactref element="USB4" pad="B7"/>
+<wire x1="-129.99924375" y1="28.5" x2="-130.6378" y2="27.2808" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB4.SBU">
+<contactref element="USB4" pad="A8"/>
+<contactref element="USB4" pad="B8"/>
+<wire x1="-129.49911875" y1="28.5" x2="-131.0696" y2="26.595" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB4.RX-">
+<contactref element="USB4" pad="A10"/>
+<contactref element="USB4" pad="B10"/>
+<contactref element="U$1" pad="33"/>
+<wire x1="-131.857" y1="26.595" x2="-206.25" y2="-20.0412" width="0" layer="19" extent="1-1"/>
+<wire x1="-128.498865625" y1="28.5" x2="-131.857" y2="26.595" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB4.RX+">
+<contactref element="USB4" pad="A11"/>
+<contactref element="USB4" pad="B11"/>
+<contactref element="U$1" pad="32"/>
+<wire x1="-132.6444" y1="26.595" x2="-206.65" y2="-20.0412" width="0" layer="19" extent="1-1"/>
+<wire x1="-127.998740625" y1="28.5" x2="-132.6444" y2="26.595" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB4.CC2">
+<contactref element="USB4" pad="B5"/>
+</signal>
+<signal name="USB6.GND">
+<contactref element="USB6" pad="A1"/>
+<contactref element="USB6" pad="A12"/>
+<contactref element="USB6" pad="B12"/>
+<contactref element="USB6" pad="B1"/>
+<wire x1="-209" y1="28.5" x2="-209.0508" y2="27.2808" width="0" layer="19" extent="1-1"/>
+<wire x1="-203.4986125" y1="28.5" x2="-209" y2="28.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-203.4374" y1="27.2808" x2="-203.4986125" y2="28.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB6.TX+">
+<contactref element="USB6" pad="A2"/>
+<contactref element="USB6" pad="B2"/>
+<contactref element="U$1" pad="83"/>
+<wire x1="-203.8438" y1="26.595" x2="-202.25" y2="-8.4588" width="0" layer="19" extent="1-1"/>
+<wire x1="-208.499875" y1="28.5" x2="-203.8438" y2="26.595" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB6.TX-">
+<contactref element="USB6" pad="A3"/>
+<contactref element="USB6" pad="B3"/>
+<contactref element="U$1" pad="84"/>
+<wire x1="-204.6566" y1="26.595" x2="-202.65" y2="-8.4588" width="0" layer="19" extent="1-1"/>
+<wire x1="-207.999746875" y1="28.5" x2="-204.6566" y2="26.595" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB6.VBUS">
+<contactref element="USB6" pad="A4"/>
+<contactref element="USB6" pad="A9"/>
+<contactref element="USB6" pad="B9"/>
+<contactref element="USB6" pad="B4"/>
+<wire x1="-207.499621875" y1="28.5" x2="-207.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
+<wire x1="-205.0376" y1="27.2808" x2="-207.4506" y2="27.2808" width="0" layer="19" extent="1-1"/>
+<wire x1="-204.998990625" y1="28.5" x2="-205.0376" y2="27.2808" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB6.CC1">
+<contactref element="USB6" pad="A5"/>
+</signal>
+<signal name="USB6.D+">
+<contactref element="USB6" pad="A6"/>
+<contactref element="USB6" pad="B6"/>
+<contactref element="U$1" pad="81"/>
+<wire x1="-205.825" y1="27.2808" x2="-201.45" y2="-8.4588" width="0" layer="19" extent="1-1"/>
+<wire x1="-206.49936875" y1="28.5" x2="-205.825" y2="27.2808" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB6.D-">
+<contactref element="USB6" pad="A7"/>
+<contactref element="USB6" pad="B7"/>
+<contactref element="U$1" pad="82"/>
+<wire x1="-206.6378" y1="27.2808" x2="-201.85" y2="-8.4588" width="0" layer="19" extent="1-1"/>
+<wire x1="-205.99924375" y1="28.5" x2="-206.6378" y2="27.2808" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB6.SBU">
+<contactref element="USB6" pad="A8"/>
+<contactref element="USB6" pad="B8"/>
+<wire x1="-205.49911875" y1="28.5" x2="-207.0696" y2="26.595" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB6.RX-">
+<contactref element="USB6" pad="A10"/>
+<contactref element="USB6" pad="B10"/>
+<contactref element="U$1" pad="87"/>
+<wire x1="-207.857" y1="26.595" x2="-203.85" y2="-8.4588" width="0" layer="19" extent="1-1"/>
+<wire x1="-204.498865625" y1="28.5" x2="-207.857" y2="26.595" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB6.RX+">
+<contactref element="USB6" pad="A11"/>
+<contactref element="USB6" pad="B11"/>
+<contactref element="U$1" pad="86"/>
+<wire x1="-208.6444" y1="26.595" x2="-203.45" y2="-8.4588" width="0" layer="19" extent="1-1"/>
+<wire x1="-203.998740625" y1="28.5" x2="-208.6444" y2="26.595" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB6.CC2">
+<contactref element="USB6" pad="B5"/>
+</signal>
+<signal name="PICO.D-">
+<contactref element="U$1" pad="41"/>
+</signal>
+<signal name="PICO.D+">
+<contactref element="U$1" pad="42"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
